@@ -72,6 +72,7 @@ svg {
 
 @media only screen and (min-width: 50em){
   .header{
+    max-width: 90rem;
     border-bottom: 0.25rem solid $bordercolor;
   }
 
@@ -93,14 +94,20 @@ svg {
     position:fixed;
     width: 18rem;
     height: 75vh;
-    top:0;
-    right: 0;
-    margin:4rem 2rem 0 0;
+    top: 4rem;
+    right: 3rem;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: auto;
   }
 
   .hamburger {
     display: none;
+  }
+}
+
+@media (min-width:100rem){
+  .nav-menu{
+    right: 10rem;
   }
 }

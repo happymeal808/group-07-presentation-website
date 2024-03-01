@@ -398,6 +398,7 @@ svg {
 
 @media only screen and (min-width: 50em) {
   .header {
+    max-width: 90rem;
     border-bottom: 0.25rem solid rgba(25, 24, 26, 0.7803921569);
   }
   .navbar {
@@ -414,19 +415,26 @@ svg {
     position: fixed;
     width: 18rem;
     height: 75vh;
-    top: 0;
-    right: 0;
-    margin: 4rem 2rem 0 0;
+    top: 4rem;
+    right: 3rem;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: auto;
   }
   .hamburger {
     display: none;
   }
 }
+@media (min-width: 100rem) {
+  .nav-menu {
+    right: 10rem;
+  }
+}
 html {
   scroll-behavior: smooth;
   line-height: 1.5;
+  max-width: 90rem;
+  margin: auto;
 }
 
 body {
@@ -450,6 +458,7 @@ body h6 {
   font-size: 2rem;
 }
 body h1 {
+  font-family: "Space Mono", monospace;
   font-size: 3rem;
   color: #A8DC76;
 }
@@ -535,6 +544,7 @@ body li {
 .footer-info .program-name {
   grid-column: 2/4;
   grid-row: 3/4;
+  color: #FF6188;
 }
 .footer-info .authors {
   grid-column: 2/4;
@@ -634,6 +644,15 @@ body li {
   body .nav-item a:visited,
   body .nav-item a:active {
     color: rgba(25, 24, 26, 0.7803921569);
+  }
+  body .site-footer .program-name {
+    color: #2D292F;
+  }
+  body .site-footer .github-icon svg {
+    fill: #2D292F;
+  }
+  body .site-footer .home-icon svg {
+    fill: #2D292F;
   }
 }
 

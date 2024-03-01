@@ -80,5 +80,16 @@
                 color: $bordercolor;
             }
         }
+        .site-footer{
+            .program-name{
+                color: $textcolorlight;
+            }
+            .github-icon svg{
+                fill: $textcolorlight;
+            }
+            .home-icon svg{
+                fill: $textcolorlight;
+            }
+        }
     }
 }

@@ -3,6 +3,8 @@
 html {
     scroll-behavior: smooth;
     line-height: 1.5;
+    max-width: 90rem;
+    margin: auto;
 }
 
 body {
@@ -28,6 +30,7 @@ body {
     }
 
     h1 {
+        font-family: $headerfonthover;
         font-size: 3rem;
         color: $heading-1;
     }
