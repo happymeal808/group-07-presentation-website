@@ -4,56 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown, Group 7</title>
+    <link rel="stylesheet" href="styles/fwd-normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div class="site-wrapper">
-        <header class="site-header">
-            <nav class="page-navigation" id="site-navigation">
-                <button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle">
-                    <svg fill="#000000" height="200" width="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.93 511.93" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M476.738,280.436c-4.16-4.16-10.88-4.16-15.04,0l-195.2,195.2V10.996c0-5.333-3.84-10.133-9.067-10.88 c-6.613-0.96-12.267,4.16-12.267,10.56v464.96l-195.093-195.2c-4.267-4.053-10.987-3.947-15.04,0.213 c-3.947,4.16-3.947,10.667,0,14.827L248.365,508.81c4.16,4.16,10.88,4.16,15.04,0l213.333-213.333 C480.898,291.423,480.898,284.596,476.738,280.436z"></path> </g> </g> </g>
-                        <title>Menu Icon</title>
+
+        <header class="header" id="top">
+            <nav class="navbar">
+                <a href="#" class="nav-logo">
+                    <svg viewBox="0 0 24 18" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 8C0 5.79086 1.79086 4 4 4H20C22.2091 4 24 5.79086 24 8V16C24 18.2091 22.2091 20 20 20H4C1.79086 20 0 18.2091 0 16V8ZM4 6C2.89543 6 2 6.89543 2 8V16C2 17.1046 2.89543 18 4 18H20C21.1046 18 22 17.1046 22 16V8C22 6.89543 21.1046 6 20 6H4ZM5.68377 8.05132C6.09211 7.9152 6.54174 8.05566 6.8 8.4L9 11.3333L11.2 8.4C11.4583 8.05566 11.9079 7.9152 12.3162 8.05132C12.7246 8.18743 13 8.56957 13 9V15C13 15.5523 12.5523 16 12 16C11.4477 16 11 15.5523 11 15V12L9.8 13.6C9.61115 13.8518 9.31476 14 9 14C8.68524 14 8.38885 13.8518 8.2 13.6L7 12V15C7 15.5523 6.55228 16 6 16C5.44772 16 5 15.5523 5 15V9C5 8.56957 5.27543 8.18743 5.68377 8.05132ZM18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9V12.5858L15.7071 12.2929C15.3166 11.9024 14.6834 11.9024 14.2929 12.2929C13.9024 12.6834 13.9024 13.3166 14.2929 13.7071L16.2929 15.7071C16.6834 16.0976 17.3166 16.0976 17.7071 15.7071L19.7071 13.7071C20.0976 13.3166 20.0976 12.6834 19.7071 12.2929C19.3166 11.9024 18.6834 11.9024 18.2929 12.2929L18 12.5858V9Z" ></path>
                     </svg>
-                </button>
-                <ul class="nav-menu" id="header-menu">
-                    <li>what is markdown?</li>
-                    <li>what does it do?</li>
-                    <li>why use it?</li>
-                    <li>where to use it?</li>
-                    <li>pros & cons</li>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#intro">What is it?</a></li>
+                    <li class="nav-item"><a href="#what">What does it do?</a></li>
+                    <li class="nav-item"><a href="#why">Why use it?</a></li>
+                    <li class="nav-item"><a href="#where">Where to use it?</a></li>
+                    <li class="nav-item"><a href="#pros-cons">Pros & Cons</a></li>
                 </ul>
+                <button class="hamburger" aria-expanded="false" aria-label="Menu Toggle">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu Icon</title>
+                        <path d="m12 16.495c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm0-6.75c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm0-6.75c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25z"/></svg>
+                </button>
             </nav>
         </header>
-        <main class="site-main">
-            <h1>Markdown</h1>
-            <section class="intro">
-                <h2>What is it?</h2>
+
+        <main class="site-main" id="site-main">
+            <h1># Markdown</h1>
+            <section class="intro" id="intro">
+                <h2>What is Markdown?</h2>
                 <p>To put it plainly, Markdown is a lightweight markup language used to format plaintext text documents. It was created in 2004 by John Gruber. Gruber's primary goal in his design was to created an unobtrusive and readable text formatter, even in it's source-code form. Markdown ahould be used as a writing tool, and HTML as a publishing format.</p>
             </section>
-            <section class="what">
-                <h2>What does it do?</h2>
+            <section class="what" id="what">
+                <h2>## What does it do?</h2>
                 <p>Markdown has the ability to take many forms. It can be used to take notes, write block posts, write novels, and even create slide presentations.</p>
             </section>
-            <section class="why">
-                <h2>Why would I even use it?</h2>
+            <section class="why" id="why">
+                <h2>## Why should you even use it?</h2>
                 <p></p>
             </section>
-            <section class="where">
-                <h2>Where can I use it?</h2>
+            <section class="where" id="where">
+                <h2>## Where can you use it?</h2>
                 <p><q cite="www.markdownguide.org">Markdown is supported by many websites, such as Reddit, Github, Wordpress, and even Slack and Discord.</q> And, even if the application your using stops working, you are still able to read Markdown formatted text using text editing software.</p>
             </section>
-            <section class="pros-cons">
-                <h2>Pros & Cons</h2>
-                <article>
-                    <h3>Pros</h3>
+            <section class="pros-cons" id="pros-cons">
+                <h2>## Pros vs Cons</h2>
+                <article class="pros">
+                    <h3>### Pros</h3>
                     <ul>
                         <li>Files containing markdown can be opened using any application, whereas say a Microsoft word document locks content to a proprietary file format.</li>
                         <li>You can create markdown-formatted text with any operating system.</li>
                         <li>It is future proof. Unlike PDFs or Word Documents, .md files are readable even when not properly rendered.</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Cons</h3>
+                <article class="cons">
+                    <h3>### Cons</h3>
                     <ul>
                         <li>Markdown is not standardized. There is no specification or authority for Markdown. Different implementations of Markdown may have different behaviors or interpretations of the syntax. This can lead to inconsistencies across dfferent platforms and tools.</li>
                         <li>Due to it's minimalistic design, it is limited in it's functionality. It does not natively support footnotes, tables of content, citations, mathematical equations, charts, diagrams, and more. That being said, with a little bit of internet connection, it is possible to use links to utilize some of these features!</li>
@@ -62,13 +70,24 @@
                 </article>
             </section>
         </main>
+
         <footer class="site-footer">
             <ul class="footer-info">
-                <li>FWD37</li>
-                <li>Dilraj, Gill, Simran, Tyler</li>
-                <li>Web Dev 2</li>
+                <li class="program-name">FWD37</li>
+                <li class="authors">Dilraj, Gill, Simran, Tyler</li>
+                <li class="github-icon" aria-label="page's github link">
+                    <a href="https://github.com/happymeal808/group-07-presentation-website" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
+                    </a>
+                </li>
+                <li class='home-icon' aria-label="back to top">
+                    <a href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9.185l7 6.514v6.301h-3v-5h-8v5h-3v-6.301l7-6.514zm0-2.732l-9 8.375v9.172h7v-5h4v5h7v-9.172l-9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/></svg>
+                    </a>
+                </li>
             </ul>
         </footer>
     </div>
+    <script src="script/nav-menu.js" ></script>
 </body>
 </html>

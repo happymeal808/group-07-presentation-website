@@ -1,0 +1,84 @@
+@use 'vars' as *;
+
+@media (prefers-color-scheme: light){
+
+    body {
+        background-color: $bgcolorlight;
+        color: $textcolorlight;
+
+        a:hover {
+            position:sticky;
+            border: 1px dotted $bordercolor;
+        } 
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6{
+            color: $bgcolor;
+        }
+
+        h1{
+            color: $bgcolorsection;
+        }
+
+        h2 {
+            border-bottom: 2px solid $bgcolor;
+        }
+
+        h3{
+            color: $textcolorlight
+        }
+
+        section {
+            background-color: $bgcolorsectionlight;
+            border: 2px solid $bordercolorlight;
+        }
+
+        p,
+        li {
+            color: $textcolorlight;
+        }
+
+        svg {
+            fill: $bordercolor;
+        }
+
+        .header {
+            border-bottom: 0.25rem solid $bordercolorlight;
+        }
+
+        .hamburger {
+            background-color: $bgcolorlight;
+        }
+
+        .nav-menu {
+            background-color: $bgcolornavlight;
+            border: 2px solid $bordercolorlight;
+        }
+
+        .nav-menu.active {
+            background-color: $bgcolorlight;
+            a {
+                color: $bgcolor;
+                text-decoration: none;
+            }
+            a:hover {
+                color: $bgcolorsection;
+                text-decoration: underline;
+            }
+        }
+        .nav-item {
+            a {
+                color: $textcolorlight;
+            }
+            a:hover,
+            a:visited,
+            a:active {
+                color: $bordercolor;
+            }
+        }
+    }
+}

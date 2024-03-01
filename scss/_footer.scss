@@ -1,0 +1,54 @@
+@use 'vars' as *;
+
+.site-footer{
+    text-align: center;
+}
+
+.footer-info{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 4rem 4rem 3rem;
+    justify-content: center;
+    align-items: center;
+
+    .program-name{
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+    }
+    .authors {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    .github-icon {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        svg {
+            fill: $heading-1;
+        }
+    }
+
+    .home-icon {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+        svg {
+            fill: $heading-2;
+        }
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+        font-family: $headerfonthover;
+    }
+}
+
+@media (min-width:50rem){
+    .footer-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 1rem;
+        align-items: center;
+    }
+}
