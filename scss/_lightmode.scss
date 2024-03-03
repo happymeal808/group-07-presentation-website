@@ -4,7 +4,7 @@
 
     body {
         background-color: $bgcolorlight;
-        background: url(/images/wallpaper-light.jpg) repeat fixed;
+        background: url('/images/wallpaper-light.jpg') repeat fixed;
         color: $textcolorlight;
 
         a:focus {

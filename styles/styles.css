@@ -451,7 +451,7 @@ html {
 
 body {
   background-color: #2D292F;
-  background: url(/images/dark-mode-backgroung.jpg) repeat fixed;
+  background: url("/images/dark-mode-backgroung.jpg") repeat fixed;
   background-size: cover;
   overscroll-behavior-x: auto;
   line-height: 1.5;
@@ -599,7 +599,7 @@ body li {
 @media (prefers-color-scheme: light) {
   body {
     background-color: #ECEFEF;
-    background: url(/images/wallpaper-light.jpg) repeat fixed;
+    background: url("/images/wallpaper-light.jpg") repeat fixed;
     color: #2D292F;
   }
   body a:focus {
@@ -668,13 +668,10 @@ body li {
     fill: #2D292F;
   }
 }
-.demo {
-  display: flex;
-  flex-direction: column;
-}
 .demo table {
   border-collapse: collapse;
   margin: 1rem 0;
+  width: 100%;
 }
 .demo table caption {
   font-family: "Space Mono", monospace;
@@ -700,6 +697,8 @@ body li {
   font-size: 0.75rem;
   border: 1px solid rgba(216, 217, 217, 0.8352941176);
   padding: 0 0.25rem;
+  overflow-x: auto;
+  line-break: anywhere;
 }
 .demo table tbody td code {
   font-family: monospace;

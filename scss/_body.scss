@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: $bgcolor;
-    background: url(/images/dark-mode-backgroung.jpg) repeat fixed;
+    background: url('/images/dark-mode-backgroung.jpg') repeat fixed;
     background-size: cover;
     overscroll-behavior-x: auto;
     line-height: 1.5;
