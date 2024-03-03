@@ -336,15 +336,20 @@ html {
   box-sizing: border-box;
 }
 
+.header {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
 .nav-menu {
   display: flex;
   position: fixed;
   right: -100%;
   top: 5rem;
   flex-direction: column;
-  background-color: rgba(25, 24, 26, 0.7803921569);
+  background-color: rgba(35, 31, 34, 0.8352941176);
   width: 20rem;
-  border: 2px solid rgba(25, 24, 26, 0.7803921569);
+  border: 2px solid #2D292F;
   border-radius: 1rem;
   text-align: center;
   transition: 0.3s;
@@ -371,8 +376,6 @@ html {
 .nav-item a:visited,
 .nav-item a:hover {
   color: #E9EBEC;
-  text-decoration: underline;
-  font-family: "Space Mono", monospace;
 }
 
 .navbar {
@@ -380,11 +383,18 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
   padding: 0.5rem 0 0 0.5rem;
+}
+.navbar h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  margin: 1rem;
+  color: #F1EAE4;
 }
 
 .hamburger {
-  background-color: #2D292F;
+  background-color: transparent;
   border: none;
   display: block;
   cursor: pointer;
@@ -393,17 +403,24 @@ html {
 svg {
   height: 4rem;
   width: 4rem;
-  fill: #FF6188;
+  fill: #30eba2;
 }
 
-@media only screen and (min-width: 50em) {
+@media (min-width: 40em) {
+  .navbar h1 {
+    font-size: clamp(3rem, 4.5vw, 5rem);
+  }
+}
+@media (min-width: 50em) {
   .header {
+    width: 75%;
     max-width: 90rem;
-    border-bottom: 0.25rem solid rgba(25, 24, 26, 0.7803921569);
   }
   .navbar {
-    align-items: right;
+    display: flex;
+    justify-content: flex-start;
     padding: 1rem 1.5rem;
+    max-width: 75%;
   }
   .nav-logo svg {
     height: 10rem;
@@ -412,79 +429,82 @@ svg {
     margin: 0;
   }
   .nav-menu {
-    position: fixed;
-    width: 18rem;
-    height: 75vh;
-    top: 4rem;
-    right: 3rem;
+    background-color: rgba(35, 31, 34, 0.8352941176);
+    width: fit-content;
+    height: fit-content;
+    top: 5rem;
+    left: 70%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-right: auto;
+  }
+  .nav-menu a {
+    font-size: clamp(1.5rem, 1.75vw, 1.875rem);
   }
   .hamburger {
     display: none;
   }
 }
-@media (min-width: 100rem) {
-  .nav-menu {
-    right: 10rem;
-  }
-}
 html {
   scroll-behavior: smooth;
-  line-height: 1.5;
-  max-width: 90rem;
-  margin: auto;
 }
 
 body {
   background-color: #2D292F;
+  background: url(/images/dark-mode-backgroung.jpg) repeat fixed;
+  background-size: cover;
   overscroll-behavior-x: auto;
-  margin: 0 1rem;
+  line-height: 1.5;
+}
+body .site-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+body a:hover,
+body a:active {
+  text-decoration: #30eba2 wavy underline;
 }
 body a:focus {
-  border: 1px dotted #DDE0E0;
+  border: 1px dotted #616b71;
 }
-body h1,
 body h2,
 body h3,
 body h4,
 body h5,
 body h6 {
-  line-height: 1;
+  display: block;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
-  color: #78DCE8;
+  color: #F1EAE4;
   font-size: 2rem;
 }
-body h1 {
-  font-family: "Space Mono", monospace;
-  font-size: 3rem;
-  color: #A8DC76;
-}
 body h2 {
+  font-family: "Space Mono", monospace;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #A8DC76;
+  border-bottom: 2px solid #30eba2;
 }
 body h3 {
   margin: 0.5rem 0;
   font-size: 1.5rem;
-  color: #FF6188;
 }
 body section {
   background-color: #231F22;
   border: 2px solid #19181A;
   border-radius: 0.5rem;
-  margin: 2rem 0;
+  margin: 2rem 1rem;
   padding: 1rem;
-  height: 100vh;
-}
-body .pros-cons {
   height: fit-content;
 }
-body .pros-cons li {
+body section li {
   list-style: circle;
   margin-left: 2rem;
+}
+body section a {
+  text-decoration: none;
+  color: #4472CA;
+  font-style: italic;
 }
 body p,
 body ul,
@@ -497,20 +517,16 @@ body li {
   margin: 0.5rem 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 50rem) {
   body main {
     margin: 0 3rem;
+    max-width: 75rem;
   }
   body h2,
-  body h3,
   body h4,
   body h5,
   body h6 {
     font-size: clamp(2rem, 2.5vw, 3rem);
-  }
-  body h1 {
-    font-size: clamp(3rem, 3.5vw, 4rem);
-    color: #A8DC76;
   }
   body h3 {
     font-size: clamp(1.5rem, 2vw, 2.5rem);
@@ -518,20 +534,23 @@ body li {
   body p,
   body ul,
   body li {
-    font-size: clamp(1.25rem, 1.5vw, 1.75rem);
+    font-size: clamp(1.25rem, 1.375vw, 1.75rem);
   }
   body section {
-    margin: 0rem 10rem 3rem 0rem;
-  }
-}
-@media (min-width: 50rem) {
-  main section {
-    margin: 0 15rem 3rem 3rem;
-    padding: 2.5rem;
+    width: 70%;
   }
 }
 .site-footer {
   text-align: center;
+  background-color: rgba(35, 31, 34, 0.8352941176);
+  position: relative;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  padding: 0.5rem;
+  border-top: 2px solid #2D292F;
 }
 
 .footer-info {
@@ -540,11 +559,11 @@ body li {
   grid-template-rows: 4rem 4rem 3rem;
   justify-content: center;
   align-items: center;
+  max-width: 75rem;
 }
 .footer-info .program-name {
   grid-column: 2/4;
   grid-row: 3/4;
-  color: #FF6188;
 }
 .footer-info .authors {
   grid-column: 2/4;
@@ -554,15 +573,12 @@ body li {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.footer-info .github-icon svg {
-  fill: #A8DC76;
-}
 .footer-info .home-icon {
   grid-row: 1/2;
   grid-column: 3/4;
 }
-.footer-info .home-icon svg {
-  fill: #78DCE8;
+.footer-info svg {
+  fill: #E9EBEC;
 }
 .footer-info li {
   margin: 0;
@@ -575,29 +591,25 @@ body li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 1rem;
+    margin: 1rem auto;
     align-items: center;
   }
 }
 @media (prefers-color-scheme: light) {
   body {
     background-color: #ECEFEF;
+    background: url(/images/wallpaper-light.jpg) repeat fixed;
     color: #2D292F;
   }
-  body a:hover {
-    position: sticky;
-    border: 1px dotted rgba(25, 24, 26, 0.7803921569);
+  body a:focus {
+    border: 1px dotted #2D292F;
   }
-  body h1,
   body h2,
   body h3,
   body h4,
   body h5,
   body h6 {
     color: #2D292F;
-  }
-  body h1 {
-    color: #231F22;
   }
   body h2 {
     border-bottom: 2px solid #2D292F;
@@ -607,24 +619,25 @@ body li {
   }
   body section {
     background-color: #E9EBEC;
-    border: 2px solid #DDE0E0;
+    border: 2px solid #616b71;
+  }
+  body section a:hover,
+  body section a:active {
+    text-decoration: #4472CA wavy underline;
   }
   body p,
   body li {
     color: #2D292F;
   }
   body svg {
-    fill: rgba(25, 24, 26, 0.7803921569);
+    fill: #2D292F;
   }
-  body .header {
-    border-bottom: 0.25rem solid #DDE0E0;
-  }
-  body .hamburger {
-    background-color: #ECEFEF;
+  body .navbar h1 {
+    color: #231F22;
   }
   body .nav-menu {
-    background-color: rgba(216, 217, 217, 0.768627451);
-    border: 2px solid #DDE0E0;
+    background-color: rgba(216, 217, 217, 0.8352941176);
+    border: 2px solid #616b71;
   }
   body .nav-menu.active {
     background-color: #ECEFEF;
@@ -633,17 +646,16 @@ body li {
     color: #2D292F;
     text-decoration: none;
   }
-  body .nav-menu.active a:hover {
-    color: #231F22;
-    text-decoration: underline;
-  }
   body .nav-item a {
     color: #2D292F;
   }
   body .nav-item a:hover,
-  body .nav-item a:visited,
   body .nav-item a:active {
-    color: rgba(25, 24, 26, 0.7803921569);
+    text-decoration: #4472CA wavy underline;
+  }
+  body .site-footer {
+    background-color: rgba(216, 217, 217, 0.8352941176);
+    border-top: 2px solid #616b71;
   }
   body .site-footer .program-name {
     color: #2D292F;

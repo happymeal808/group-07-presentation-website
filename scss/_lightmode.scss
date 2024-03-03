@@ -4,24 +4,19 @@
 
     body {
         background-color: $bgcolorlight;
+        background: url(/images/wallpaper-light.jpg) repeat fixed;
         color: $textcolorlight;
 
-        a:hover {
-            position:sticky;
+        a:focus {
             border: 1px dotted $bordercolor;
         } 
-
-        h1,
+        
         h2,
         h3,
         h4,
         h5,
         h6{
             color: $bgcolor;
-        }
-
-        h1{
-            color: $bgcolorsection;
         }
 
         h2 {
@@ -35,6 +30,11 @@
         section {
             background-color: $bgcolorsectionlight;
             border: 2px solid $bordercolorlight;
+            
+            a:hover,
+            a:active {
+                text-decoration: $text-decoration wavy underline;
+            }
         }
 
         p,
@@ -45,14 +45,12 @@
         svg {
             fill: $bordercolor;
         }
-
-        .header {
-            border-bottom: 0.25rem solid $bordercolorlight;
-        }
-
-        .hamburger {
-            background-color: $bgcolorlight;
-        }
+        
+        .navbar {
+            h1 {
+                color: $bgcolorsection;
+            }
+        } 
 
         .nav-menu {
             background-color: $bgcolornavlight;
@@ -65,22 +63,22 @@
                 color: $bgcolor;
                 text-decoration: none;
             }
-            a:hover {
-                color: $bgcolorsection;
-                text-decoration: underline;
-            }
+
         }
         .nav-item {
             a {
                 color: $textcolorlight;
             }
             a:hover,
-            a:visited,
             a:active {
-                color: $bordercolor;
+                text-decoration: $text-decoration wavy underline;
             }
+            
         }
+
         .site-footer{
+            background-color: $bgcolornavlight;
+            border-top: 2px solid $bordercolorlight;
             .program-name{
                 color: $textcolorlight;
             }

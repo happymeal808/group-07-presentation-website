@@ -2,39 +2,45 @@
 
 html {
     scroll-behavior: smooth;
-    line-height: 1.5;
-    max-width: 90rem;
-    margin: auto;
 }
 
 body {
     background-color: $bgcolor;
+    background: url(/images/dark-mode-backgroung.jpg) repeat fixed;
+    background-size: cover;
     overscroll-behavior-x: auto;
-    margin: 0 1rem;
+    line-height: 1.5;
+
+    .site-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: $heading-1 wavy underline;
+    }
     
     a:focus {
         border: 1px dotted $bordercolorlight;
     }
 
-    h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-        line-height: 1;
+        display: block;
         font-family: $headerfont;
         font-weight: 400;
         color: $heading-2;
         font-size: 2rem;
     }
 
-    h1 {
-        font-family: $headerfonthover;
-        font-size: 3rem;
-        color: $heading-1;
-    }
     h2{
+        font-family: $headerfonthover;
         padding-bottom: 0.5rem;
         border-bottom: 2px solid $heading-1;
     }
@@ -42,24 +48,25 @@ body {
     h3 {
         margin: 0.5rem 0;
         font-size: 1.5rem;
-        color: $text-decoration;
     }
 
     section {
         background-color: $bgcolorsection;
         border: 2px solid #19181A;
         border-radius: 0.5rem;
-        margin: 2rem 0;
+        margin: 2rem 1rem;
         padding: 1rem;
-        height: 100vh;
-    }
-
-    .pros-cons {
         height: fit-content;
-        
+
         li {
             list-style: circle;
             margin-left: 2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: $text-decoration;
+            font-style: italic;
         }
     }
 
@@ -75,25 +82,20 @@ body {
     }
 }
 
-@media (min-width:40rem){
+@media (min-width:50rem){
     
     body {
 
         main {
             margin: 0 3rem;
+            max-width: 75rem;
         }
 
         h2,
-        h3,
         h4,
         h5,
         h6{
             font-size: clamp(2rem, 2.5vw, 3rem)
-        }
-
-        h1 {
-            font-size: clamp(3rem, 3.5vw, 4rem);
-            color: $heading-1;
         }
         
         h3 {
@@ -103,21 +105,11 @@ body {
         p, 
         ul, 
         li {
-            font-size: clamp(1.25rem, 1.5vw, 1.75rem);
+            font-size: clamp(1.25rem, 1.375vw, 1.75rem);
         }
 
         section {
-            margin: 0rem 10rem 3rem 0rem;
-        }
-    }
-}
-
-@media (min-width:50rem){
-
-    main {
-        section{
-            margin: 0 15rem 3rem 3rem;
-            padding: 2.5rem;
+            width: 70%; 
         }
     }
 }

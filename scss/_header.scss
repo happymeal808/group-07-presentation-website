@@ -7,13 +7,18 @@
   box-sizing: border-box;
 }
 
+.header{
+  margin-bottom: 2rem ;
+  position: relative;
+}
+
 .nav-menu {
   display: flex;
   position: fixed;
   right: -100%;
   top: 5rem;
   flex-direction: column;
-  background-color: $bordercolor;
+  background-color: $bgcolornav;
   width: 20rem;
   border: 2px solid $bordercolor;
   border-radius: 1rem;
@@ -43,8 +48,6 @@
   a:visited,
   a:hover {
     color: $bgcolorsectionlight;
-    text-decoration: underline;
-    font-family: $headerfonthover;
   }
 }
 
@@ -53,11 +56,18 @@
   flex-direction:row;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
   padding: 0.5rem 0 0 0.5rem;
+  h1 {
+    font-family: $headerfonthover;
+    font-size: 2rem;
+    margin: 1rem;
+    color: $heading-2;
+  }
 }
 
 .hamburger {
-  background-color: $bgcolor;
+  background-color: transparent;
   border: none;
   display: block;
   cursor: pointer;
@@ -66,19 +76,29 @@
 svg {
   height: 4rem;
   width: 4rem;
-  fill: $text-decoration;
+  fill: $heading-1;
 }
 
+@media (min-width: 40em){
+  .navbar{
+    h1 {
+      font-size: clamp(3rem, 4.5vw, 5rem);
+    }
+  }
+}
 
-@media only screen and (min-width: 50em){
+@media (min-width: 50em){
+
   .header{
+    width: 75%;
     max-width: 90rem;
-    border-bottom: 0.25rem solid $bordercolor;
   }
 
   .navbar {
-    align-items: right;
+    display: flex;
+    justify-content: flex-start;
     padding: 1rem 1.5rem;
+    max-width: 75%;
   }
 
   .nav-logo {
@@ -91,23 +111,21 @@ svg {
   }
 
   .nav-menu {
-    position:fixed;
-    width: 18rem;
-    height: 75vh;
-    top: 4rem;
-    right: 3rem;
+    background-color: $bgcolornav;
+    width: fit-content;
+    height: fit-content;
+    top: 5rem;
+    left: 70%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-right: auto;
+
+    a {
+      font-size: clamp(1.5rem, 1.75vw, 1.875rem);
+    }
   }
 
   .hamburger {
     display: none;
-  }
-}
-
-@media (min-width:100rem){
-  .nav-menu{
-    right: 10rem;
   }
 }
