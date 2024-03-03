@@ -668,5 +668,76 @@ body li {
     fill: #2D292F;
   }
 }
+.demo {
+  display: flex;
+  flex-direction: column;
+}
+.demo table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.demo table caption {
+  font-family: "Space Mono", monospace;
+  text-align: justify;
+  font-size: 2rem;
+  color: #F1EAE4;
+  text-decoration: #4472CA wavy underline;
+  margin-bottom: 0.5rem;
+}
+.demo table thead {
+  width: 10rem;
+}
+.demo table thead th {
+  border: 2px solid rgba(216, 217, 217, 0.8352941176);
+  font-family: "Space Grotesk", sans-serif;
+  color: #ECEFEF;
+}
+.demo table tbody {
+  width: 10rem;
+}
+.demo table tbody td {
+  color: #ECEFEF;
+  font-size: 0.75rem;
+  border: 1px solid rgba(216, 217, 217, 0.8352941176);
+  padding: 0 0.25rem;
+}
+.demo table tbody td code {
+  font-family: monospace;
+}
+.demo table tbody td h1 {
+  font-size: 1.625rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 0;
+}
+.demo table tbody td h2 {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  border-bottom: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+.demo table tbody td h3 {
+  font-size: 1.375rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 0;
+}
+.demo table tbody td h4 {
+  font-size: 1.25rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.demo table tbody td h5 {
+  font-size: 1.175rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.demo table tbody td h6 {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -76,7 +76,7 @@
 
             <section class="demo" id="code-demo">
                 <h2>Code Demo</h2>
-                <p>Here, let's go over some basic syntax:</p>
+                <p>Here, let's go over some best practices of basic syntax:</p>
                     <table>
                         <caption>Headings</caption>
                         <thead>
@@ -87,12 +87,167 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
+                            <tr>
+                                <td>
+                                    <code># Heading 1</code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;h1&gt;Heading 1&lt;/h1&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <h1 class="no-anchor" data-to-skip id="heading-level-1">Heading 1</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>## Heading 2</code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;h2&gt;Heading 2&lt;/h2&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <h2 class="no-anchor" data-to-skip id="heading-level-2">Heading 2</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>### Heading 3</code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;h3&gt;Heading 3&lt;/h3&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <h3 class="no-anchor" data-to-skip id="heading-level-3">Heading 3</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>#### Heading 4</code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;h4&gt;Heading 4&lt;/h4&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <h4 class="no-anchor" data-to-skip id="heading-level-4">Heading 4</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>##### Heading 5</code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;h5&gt;Heading 5&lt;/h5&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <h5 class="no-anchor" data-to-skip id="heading-level-5">Heading 5</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>##### Heading 6</code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;h6&gt;Heading 6&lt;/h6&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <h6 class="no-anchor" data-to-skip id="heading-level-6">Heading 6</h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption>Paragraphs</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="markdown">Markdown</th>
+                                <th scope="col" class="html">HTML</th>
+                                <th scope="col" class="rendered">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>Hey, this paragraph is really paragraphing right now.
+                                        <br>
+                                        <br>
+                                        How paragraph.
+                                    </code>
+                                </td>
+                                <td>
+                                    <code>
+                                        &lt;p&gt;Hey, this paragraph is really paragraphing right now.&lt;/p&gt;<br>
+                                        <br>
+                                        &lt;p&gt;So cool.&lt;/p&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <p>Hey, this paragraph is really paragraphing right now.</p>
+                                    <p>So cool.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption>Emphasis</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">HTML</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>This is how you **bold** text.</code>
+                                </td>
+                                <td>
+                                    <code>This is how you &lt;strong&gt;bold&lt;/strong&gt; text.</code>
+                                </td>
+                                <td>
+                                    <p>
+                                        This is how you <strong>bold</strong> text.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>This is how you *italisize* text.</code>
+                                </td>
+                                <td>
+                                    <code>This is how you &lt;em&gt;italisize&lt;/em&gt; text.</code>
+                                </td>
+                                <td>
+                                    <p>
+                                        This is how you <em>italisize</em> text.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>Wow, this text is so ***emphatic***!</code>
+                                </td>
+                                <td>
+                                    <code>Wow, this text is so &lt;em&gt;&lt;strong&gt;emphatic&lt;/strong&gt;&lt;/em&gt;!</code>
+                                </td>
+                                <td>
+                                    <p>
+                                        Wow, this text is so <em><strong>emphatic</strong></em>!
+                                    </p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
             </section>
