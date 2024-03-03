@@ -65,15 +65,16 @@
             }
 
         }
-        .nav-item {
-            a {
-                color: $textcolorlight;
+        .nav-menu {
+            .nav-item{
+                a {
+                    color: $textcolorlight;
+                }
+                a:hover,
+                a:active {
+                    text-decoration: $text-decoration wavy underline;
+                }
             }
-            a:hover,
-            a:active {
-                text-decoration: $text-decoration wavy underline;
-            }
-            
         }
 
         .site-footer{

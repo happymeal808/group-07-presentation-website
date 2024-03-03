@@ -403,7 +403,7 @@ html {
 svg {
   height: 4rem;
   width: 4rem;
-  fill: #30eba2;
+  fill: #F1EAE4;
 }
 
 @media (min-width: 40em) {
@@ -538,6 +538,7 @@ body li {
   }
   body section {
     width: 70%;
+    padding: 2rem;
   }
 }
 .site-footer {
@@ -646,11 +647,11 @@ body li {
     color: #2D292F;
     text-decoration: none;
   }
-  body .nav-item a {
+  body .nav-menu .nav-item a {
     color: #2D292F;
   }
-  body .nav-item a:hover,
-  body .nav-item a:active {
+  body .nav-menu .nav-item a:hover,
+  body .nav-menu .nav-item a:active {
     text-decoration: #4472CA wavy underline;
   }
   body .site-footer {
