@@ -53,7 +53,28 @@ Here, let's go over some best practices of basic Markdown syntax:
 | ----------- | ----------- | ------ |  
 | `# Heading 1 `   | `<h1>Heading</h1>`| #Heading 1  |  
 | Paragraph   | Text        |  |  
-test2
+
+
+### Emojis 
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`:eyes: :100: :thumbsup: :100:`| `&#128064; &#128175; &#128077; &#128175;` | &#128064; &#128175; &#128077; &#128175; |
+
+### Images
+Image links begin with an exclamation point, alt text is placed inside square brackets, and the image link goes inside parentheses!
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`![8-bit Gaming Panda](images/8bit-gaming-panda.png)`|`<img alt="8-bit Gaming Panda" src="images/8bit-gaming-panda.png"/>`| <img alt="8-bit Gaming Panda" src="images/8bit-gaming-panda.png"/> |
+
+### Links
+
+Linking to another external page is similar to linking images, just without the exclamation point.
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+| `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
 ## Tools & Resources
 
