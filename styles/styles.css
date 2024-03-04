@@ -1,0 +1,807 @@
+@import 'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.nav-menu {
+  display: flex;
+  position: fixed;
+  right: -100%;
+  top: 5rem;
+  flex-direction: column;
+  background-color: rgba(35, 31, 34, 0.8352941176);
+  width: 20rem;
+  border: 2px solid #2D292F;
+  border-radius: 1rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-menu.active {
+  right: 0;
+  background-color: #231F22;
+  position: absolute;
+}
+
+.nav-item {
+  font-family: "Space Grotesk", sans-serif;
+  list-style: none;
+  text-align: right;
+  margin: 1rem 1rem;
+}
+.nav-item a {
+  font-size: 1.5rem;
+  color: #ECEFEF;
+  text-decoration: none;
+}
+.nav-item a:hover,
+.nav-item a:visited,
+.nav-item a:hover {
+  font-weight: 400;
+  color: #E9EBEC;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 0.5rem 0 0 0.5rem;
+}
+.navbar h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  margin: 1rem;
+  color: #F1EAE4;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: none;
+  display: block;
+  cursor: pointer;
+}
+
+svg {
+  height: 4rem;
+  width: 4rem;
+  fill: #F1EAE4;
+}
+
+@media (min-width: 40em) {
+  .navbar h1 {
+    font-size: clamp(3rem, 4.5vw, 5rem);
+  }
+}
+@media (min-width: 50em) {
+  .header {
+    width: 75%;
+    max-width: 90rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 1.5rem;
+    max-width: 75%;
+  }
+  .nav-logo svg {
+    height: 10rem;
+    width: 10rem;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-menu {
+    background-color: rgba(35, 31, 34, 0.8352941176);
+    width: fit-content;
+    height: fit-content;
+    top: 2.25rem;
+    left: 70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+  }
+  .nav-menu a {
+    font-size: clamp(1.5rem, 1.75vw, 1.875rem);
+  }
+  .hamburger {
+    display: none;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overscroll-behavior-x: auto;
+  line-height: 1.5;
+}
+body .site-wrapper {
+  background-image: url("../images/dark-mode-backgroung.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+body a:hover,
+body a:active {
+  text-decoration: #30eba2 wavy underline;
+}
+body a:focus {
+  border: 1px dotted #616b71;
+}
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  display: block;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  color: #F1EAE4;
+  font-size: 2rem;
+}
+body h2 {
+  font-family: "Space Mono", monospace;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #30eba2;
+}
+body h3 {
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+  text-decoration: #4472CA underline;
+}
+body section {
+  background-color: #231F22;
+  border: 2px solid #19181A;
+  border-radius: 0.5rem;
+  margin: 2rem 0.25rem;
+  padding: 0.75rem 0.5rem;
+  height: fit-content;
+}
+body section ul li {
+  list-style: disc;
+  margin-left: 2rem;
+}
+body section a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #ECEFEF;
+  font-style: italic;
+}
+body p,
+body ul,
+body li {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  color: #ECEFEF;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 40em) {
+  body section {
+    margin: 2rem;
+    padding: 2rem;
+  }
+}
+@media (min-width: 50rem) {
+  body main {
+    margin: 0 3rem;
+    max-width: 75rem;
+  }
+  body h2,
+  body h4,
+  body h5,
+  body h6 {
+    font-size: clamp(2rem, 2.5vw, 3rem);
+  }
+  body h3 {
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+  }
+  body p,
+  body ul,
+  body li {
+    font-size: clamp(1.25rem, 1.375vw, 1.75rem);
+  }
+  body section {
+    width: 70%;
+    padding: 2rem;
+  }
+}
+.site-footer {
+  text-align: center;
+  background-color: rgba(35, 31, 34, 0.8352941176);
+  position: relative;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  padding: 0.5rem;
+  border-top: 2px solid #2D292F;
+}
+
+.footer-info {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 4rem 4rem 3rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 75rem;
+}
+.footer-info .program-name {
+  color: #F1EAE4;
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+.footer-info .authors {
+  color: #F1EAE4;
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.footer-info .github-icon {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.footer-info .home-icon {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.footer-info svg {
+  fill: #F1EAE4;
+}
+.footer-info li {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 50rem) {
+  .footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem auto;
+    align-items: center;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    color: #2D292F;
+  }
+  body a:hover,
+  body a:active {
+    text-decoration: #4472CA wavy underline;
+  }
+  body .site-wrapper {
+    background-color: #ECEFEF;
+    background-image: url("../images/wallpaper-light.jpg");
+  }
+  body a:focus {
+    border: 1px dotted #2D292F;
+  }
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    color: #2D292F;
+  }
+  body h2 {
+    border-bottom: 2px solid #2D292F;
+  }
+  body h3 {
+    color: #2D292F;
+    text-decoration: #30eba2 underline;
+  }
+  body section {
+    background-color: #E9EBEC;
+    border: 2px solid #616b71;
+  }
+  body section p,
+  body section li,
+  body section a {
+    color: #2D292F;
+  }
+  body svg {
+    fill: #4472CA;
+  }
+  body .navbar h1 {
+    color: #231F22;
+  }
+  body .nav-menu {
+    background-color: rgba(216, 217, 217, 0.8352941176);
+    border: 2px solid #616b71;
+  }
+  body .nav-menu.active {
+    background-color: #ECEFEF;
+  }
+  body .nav-menu.active a {
+    color: #2D292F;
+    text-decoration: none;
+  }
+  body .nav-menu .nav-item a {
+    color: #2D292F;
+  }
+  body .nav-menu .nav-item a:hover,
+  body .nav-menu .nav-item a:active {
+    text-decoration: #4472CA wavy underline;
+  }
+  body .site-footer {
+    background-color: rgba(216, 217, 217, 0.8352941176);
+    border-top: 2px solid #616b71;
+  }
+  body .site-footer .program-name {
+    color: #2D292F;
+  }
+  body .site-footer .authors {
+    color: #2D292F;
+  }
+  body .site-footer .github-icon svg {
+    fill: #2D292F;
+  }
+  body .site-footer .home-icon svg {
+    fill: #2D292F;
+  }
+  body .demo table caption {
+    color: #2D292F;
+  }
+  body .demo table thead th {
+    color: #2D292F;
+    border: 2px solid #2D292F;
+  }
+  body .demo table tbody td {
+    color: #2D292F;
+    border: 1px solid #2D292F;
+  }
+  body .demo table tbody td blockquote {
+    background-color: rgba(216, 217, 217, 0.8352941176);
+  }
+}
+.demo table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+}
+.demo table caption {
+  font-family: "Space Grotesk", sans-serif;
+  text-align: justify;
+  font-size: 1rem;
+  color: #F1EAE4;
+  margin-bottom: 0.5rem;
+}
+.demo table thead {
+  width: 10rem;
+}
+.demo table thead th {
+  border: 2px solid rgba(216, 217, 217, 0.8352941176);
+  font-family: "Space Grotesk", sans-serif;
+  color: #ECEFEF;
+}
+.demo table tbody {
+  width: 10rem;
+}
+.demo table tbody td {
+  color: #ECEFEF;
+  font-size: 0.75rem;
+  border: 1px solid rgba(216, 217, 217, 0.8352941176);
+  padding: 0.5rem 0.25rem;
+  word-break: break-word;
+  width: fit-content;
+}
+.demo table tbody td blockquote {
+  background-color: #2D292F;
+  border-left: 8px solid #616b71;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+.demo table tbody td ol li {
+  font-size: 1rem;
+  line-height: normal;
+  list-style: decimal;
+  margin-left: 2rem;
+}
+.demo table tbody td ul li {
+  font-size: 1rem;
+  line-height: normal;
+}
+.demo table tbody td code {
+  font-family: monospace;
+}
+.demo table tbody td p {
+  font-size: 1rem;
+}
+.demo table tbody td h1 {
+  font-size: 1.625rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 0;
+}
+.demo table tbody td h2 {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  border-bottom: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+.demo table tbody td h3 {
+  font-size: 1.375rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: none;
+}
+.demo table tbody td h4 {
+  font-size: 1.25rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.demo table tbody td h5 {
+  font-size: 1.175rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.demo table tbody td h6 {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+@media (min-width: 50em) {
+  .demo table tbody td {
+    font-size: clamp(0.75rem, 1vw, 1.125rem);
+  }
+  .demo table tbody td p {
+    font-size: clamp(1rem, 1.125vw, 1.25rem);
+  }
+  .demo table tbody td ol li,
+  .demo table tbody td ul li {
+    font-size: clamp(1rem, 1.125vw, 1.25rem);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
