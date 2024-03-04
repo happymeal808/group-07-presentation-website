@@ -55,12 +55,12 @@ Note that the space between the '#' and the heading text is important!
 
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `# Heading 1 `   | `<h1>Heading</h1>`| <h1>Heading</h1>  |  
-| `## Heading 2 `   | `<h2>Heading</h2>`| <h2>Heading</h2> | 
-| `### Heading 3 `   | `<h3>Heading</h3>`| <h3>Heading</h3> | 
-| `#### Heading 4 `   | `<h4>Heading</h4>`| <h4>Heading</h4> | 
-| `##### Heading 5 `   | `<h5>Heading</h5>`| <h5>Heading</h5> | 
-| `###### Heading 6 `   | `<h6>Heading</h6>`| <h6>Heading</h6> | 
+| `# Heading 1 `   | `<h1>Heading</h1>`| <h1>Heading 1</h1>  |  
+| `## Heading 2 `   | `<h2>Heading</h2>`| <h2>Heading 2</h2> | 
+| `### Heading 3 `   | `<h3>Heading</h3>`| <h3>Heading 3</h3> | 
+| `#### Heading 4 `   | `<h4>Heading</h4>`| <h4>Heading 4</h4> | 
+| `##### Heading 5 `   | `<h5>Heading</h5>`| <h5>Heading 5</h5> | 
+| `###### Heading 6 `   | `<h6>Heading</h6>`| <h6>Heading 6</h6> | 
 
 ### Paragraphs
 Separate your paragraphs from one another by using a blank line between them.
