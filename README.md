@@ -11,13 +11,15 @@ Due to it's simplistic nature markdown is a scripting language that can be utili
 
 # Markdown
 
-* [What is it?](#intro)
+* [What is it?](#what-is-Markdown?)
 * [What does it do?](#what)
 * [Why use it?](#why)
 * [Where to use it?](#where)
 * [Pros & Cons](#pros-cons)
 * [Code Demo](#code-demo)
 * [Tools & Resources](#tools-resources)
+
+  ---
 
 ## What is Markdown?
 
@@ -127,13 +129,19 @@ an easy Markdown tutorial in under ten minutes.
 
 ### Emulators & Editors:
 
-* [Dillinger.io](https://dillinger.io/):an online Markdown editor and HTML-to-Markdown converter.
+* [Dillinger.io](https://dillinger.io/):
+an online Markdown editor and HTML-to-Markdown converter.
 
 ### Resources:
 
-* ['The' Markdown site](https://daringfireball.net/projects/markdown/):John Gruber's personal block and guide to Markdown.
-* [A Guide to Markdown](https://www.markdownguide.org/):a free, open-source guide to markdown.
+* ['The' Markdown site](https://daringfireball.net/projects/markdown/):
+John Gruber's personal block and guide to Markdown.
+* [A Guide to Markdown](https://www.markdownguide.org/):
+a free, open-source guide to markdown.
+
+---
 
 * FWD37
 * Dilraj, Gill, Simran, Tyler
-* ![Github Icon](https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-5.png&r=48&g=235&b=162)
+* [![Github Icon](images/github-32.png)](https://github.com/happymeal808/group-07-presentation-website/)
+* [![Home Icon](images/home-32.png)](#Markdown)
