@@ -66,8 +66,7 @@ Note that the space between the '#' and the heading text is important!
 Separate your paragraphs from one another by using a blank line between them.
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-|` Hey, check out this paragraph.
-So cool. `  | `<p>Hey, check out this paragraph.</p> <p>So cool.</p>`| Hey, check out this paragraph. So cool.  |  
+|` Hey, check out this paragraph. So cool. `  | `<p>Hey, check out this paragraph.</p> <p>So cool.</p>`| Hey, check out this paragraph. So cool.  |  
 
 ## Tools & Resources
 
