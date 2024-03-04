@@ -51,8 +51,8 @@ Here, let's go over some best practices of basic Markdown syntax:
 
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `# Heading 1 `   | `<h1>Heading</h1>`| #Heading 1  |  
-| Paragraph   | Text        |  |  
+| `# Heading 1`   | `<h1>Heading</h1>`| #Heading 1  |  
+| `##Heading 2`  | `<h2>Heading 2</h2>`        |  |  
 test
 
 ## Tools & Resources
