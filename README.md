@@ -62,6 +62,17 @@ Note that the space between the '#' and the heading text is important!
 | `##### Heading 5 `   | `<h5>Heading</h4>`| #Heading 5  | 
 | `###### Heading 6 `   | `<h6>Heading</h6>`| #Heading 6  | 
 
+### Paragraphs
+Separate your paragraphs from one another by using a blank line between them.
+| Markdown     | HTML |  Rendered  |  
+| ----------- | ----------- | ------ |  
+|` Hey, check out this paragraph.
+
+So cool. `  | `<p>Hey, check out this paragraph.</p>
+
+<p>So cool.</p>`| Hey, check out this paragraph.
+
+So cool.  |  
 
 ## Tools & Resources
 
