@@ -53,7 +53,7 @@ Here, let's go over some best practices of basic Markdown syntax:
 | ----------- | ----------- | ------ |  
 | `# Heading 1 `   | `<h1>Heading</h1>`| #Heading 1  |  
 | Paragraph   | Text        |  |  
-test
+test2
 
 ## Tools & Resources
 
