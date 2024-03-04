@@ -49,7 +49,7 @@ Markdown is an ecosystem of tools that lets you complete a variety of tasks like
 
 Here, let's go over some best practices of basic Markdown syntax:
 
-| Markdown     | HTML |  Rendered|  
+| Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- |  |  
 | `# Heading 1 `   | Title       |  |  
 | Paragraph   | Text        |  |  
