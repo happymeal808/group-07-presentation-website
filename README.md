@@ -6,3 +6,9 @@ Hey, welcome to our README. 😸
   
 Our code represents the utilization of markdown as a whole.
 Due to it's simplistic nature markdown is a scripting language that can be utilized to format HTML and text based applications. 
+
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
