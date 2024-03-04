@@ -54,6 +54,13 @@ Here, let's go over some best practices of basic Markdown syntax:
 | `# Heading 1 `   | `<h1>Heading</h1>`| #Heading 1  |  
 | Paragraph   | Text        |  |  
 
+### Unordered Lists
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`- First item  - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
+|`* First item  * Second item  * Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
+|`+ First item  + Second item  + Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
 
 ### Emojis 
 
@@ -80,7 +87,8 @@ Linking to another external page is similar to linking images, just without the 
 
 ### Tutorials:
 
-* [Markdown Tutorial](https://www.markdowntutorial.com/):an easy Markdown tutorial in under ten minutes.
+* [Markdown Tutorial](https://www.markdowntutorial.com/):
+an easy Markdown tutorial in under ten minutes.
 
 ### Emulators & Editors:
 
@@ -93,3 +101,4 @@ Linking to another external page is similar to linking images, just without the 
 
 * FWD37
 * Dilraj, Gill, Simran, Tyler
+* ![Github Icon](https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-5.png&r=48&g=235&b=162)
