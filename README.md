@@ -1,4 +1,4 @@
-﻿# Markdown ![markdown-logo](https://plugins.jetbrains.com/files/18897/166369/icon/pluginIcon.svg)
+﻿# Markdown
   
 #### by Dilraj, Gill, Simran, & Tyler
 
@@ -9,29 +9,41 @@ Due to it's simplistic nature markdown is a scripting language that can be utili
 
 ---
 
-# Markdown
+#  ![markdown logo](images/markdown-50.png) Markdown
 
-* [What is it?](#what-is-Markdown?)
-* [What does it do?](#what)
-* [Why use it?](#why)
-* [Where to use it?](#where)
-* [Pros & Cons](#pros-cons)
+* [What is it?](#what-is-markdown)
+* [What does it do?](#what-does-it-do)
+* [Why use it?](#why-should-you-even-use-it)
+* [Where to use it?](#where-can-you-use-it)
+* [Pros & Cons](#pros-vs-cons)
 * [Code Demo](#code-demo)
-* [Tools & Resources](#tools-resources)
+* [Tools & Resources](#tools-and-resources)
 
-  ---
+---
 
-## What is Markdown?
+## What is Markdown
 
 To put it plainly, Markdown is a lightweight markup language used to format plaintext text documents. It was created in 2004 by John Gruber. Gruber's primary goal in his design was to create an unobtrusive and readable text formatter, even in it's source-code form. In comparison to HTML, Markdown should be thought of as a writing tool, and HTML as the publishing format.
 
-## What does it do?
+## What does it do
 
 Markdown is an ecosystem of tools that lets you complete a variety of tasks like creating an HTML page, taking notes, writing a novel, or to even create a slide presentation. Utilizing markdown can lead to a higher efficiency in everyday tasks and the simplistic syntax makes markdown a efficient tool to quickly get your ideas down and implemented. Markdown's simplistic syntax and utilization makes it easy to learn and adapt to one's coding knowledge base. Markdown is a useful tool for any developer when it comes to formatting a README.md on Github, or to simply comment on a Reddit post.
 
-## Why should you even use it?
+## Why should you even use it
+* **Convenience**:  
+  Markdown can be easier to read, write and edit for many people, especially for simple formatting tasks like creating headers, lists, or emphasis. 
+* **Integration**:  
+  Sometimes, Markdown processors are integrated into systems or frameworks that primarily use HTML. This allows users to write content in Markdown, which is then converted to HTML behind the scenes for rendering.
+* **Consistency**:  
+  Markdown can help maintain consistency across content created by different authors since it enforces a specific formatting syntax.
 
-## Where can you use it?
+## Where can you use it
+* **Websites & Web-based Applications**:  
+  Markdown is good for text-heavy sites such as blogs. It is also often used on websites that contain a lot of user input such as Reddit, GitHub, Discord, Slack, etc.
+* **Documents & Notes**:  
+  Markdown is good for efficiency as it shortens the time of some of the toolbar commands.
+* **Email**:  
+  Some email providers support Markdown. You can also write an email in Markdown and export it to your email client or install a browser extension.
 
 ## Pros vs Cons
 
@@ -120,7 +132,7 @@ Linking to another external page is similar to linking images, just without the 
 |---|---|---|  
 | `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
-## Tools & Resources
+## Tools and Resources
 
 ### Tutorials:
 
