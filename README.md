@@ -49,7 +49,7 @@ Markdown is an ecosystem of tools that lets you complete a variety of tasks like
 
 Here, let's go over some best practices of basic Markdown syntax:
 
-`###Headings`
+### Headings
 
 Note that the space between the '#' and the heading text is important!
 
