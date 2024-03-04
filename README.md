@@ -86,15 +86,7 @@ Bold and italics can be used on their own or together, and can even be placed wi
 ### Ordered Lists
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `1. First item
-2. Second item
-3. Third item`   | `<ol>`
-`<li>First item</li>`
-`<li>Second item</li>`
-`<li>Third item</li>`
-`</ol>`| First item
-Second item
-Third Item  |  
+| `1. First item 2. Second item 3. Third item`   | `<ol><li>First item</li><li>Second item</li><li>Third item</li></ol>`| <ol><li>First item</li><li>Second item</li><li>Third Item</li></ol> |  
 
 ## Tools & Resources
 
