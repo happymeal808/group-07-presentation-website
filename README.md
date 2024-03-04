@@ -74,7 +74,7 @@ Separate your paragraphs from one another by using a blank line between them.
 Bold and italics can be used on their own or together, and can even be placed within words.
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| TThis is how you **bold** text.  |  
+| `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| This is how you **bold** text.  |  
 | `This is how you *italisize* text. `   | `This is how you <em>italisize</em> text.`| This is how you *italisize* text  | 
 | `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so ***emphatic***! | 
 
@@ -82,6 +82,19 @@ Bold and italics can be used on their own or together, and can even be placed wi
 | Markdown     |  Rendered  |  
 | -----------  | ------ |  
 | `> This is how you make a blockquote.`   | <blockquote> This is how you make a blockquote. </blockquote> |  
+
+### Ordered Lists
+| Markdown     | HTML |  Rendered  |  
+| ----------- | ----------- | ------ |  
+| `1. First item
+2. Second item
+3. Third item`   | `<ol>`
+`<li>First item</li>`
+`<li>Second item</li>`
+`<li>Third item</li>`
+`</ol>`| First item
+Second item
+Third Item  |  
 
 ## Tools & Resources
 
