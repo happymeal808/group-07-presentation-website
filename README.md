@@ -81,7 +81,7 @@ Bold and italics can be used on their own or together, and can even be placed wi
 ### Blockquotes
 | Markdown     |  Rendered  |  
 | -----------  | ------ |  
-| `> This is how you make a blockquote.`   | > This is how you make a blockquote.  |  
+| `> This is how you make a blockquote.`   | <blockquote> This is how you make a blockquote. </blockquote> |  
 
 ## Tools & Resources
 
