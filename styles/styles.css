@@ -571,10 +571,12 @@ body li {
   max-width: 75rem;
 }
 .footer-info .program-name {
+  color: #F1EAE4;
   grid-column: 2/4;
   grid-row: 3/4;
 }
 .footer-info .authors {
+  color: #F1EAE4;
   grid-column: 2/4;
   grid-row: 2/3;
 }
@@ -587,7 +589,7 @@ body li {
   grid-column: 3/4;
 }
 .footer-info svg {
-  fill: #E9EBEC;
+  fill: #F1EAE4;
 }
 .footer-info li {
   margin: 0;
@@ -610,13 +612,13 @@ body li {
   body {
     color: #2D292F;
   }
+  body a:hover,
+  body a:active {
+    text-decoration: #4472CA wavy underline;
+  }
   body .site-wrapper {
     background-color: #ECEFEF;
     background-image: url("../images/wallpaper-light.jpg");
-  }
-  body .site-wrapper a:hover,
-  body .site-wrapper a:active {
-    text-decoration: #30eba2 wavy underline;
   }
   body a:focus {
     border: 1px dotted #2D292F;
@@ -633,20 +635,15 @@ body li {
   }
   body h3 {
     color: #2D292F;
+    text-decoration: #30eba2 underline;
   }
   body section {
     background-color: #E9EBEC;
     border: 2px solid #616b71;
   }
+  body section p,
+  body section li,
   body section a {
-    color: #2D292F;
-  }
-  body section a:hover,
-  body section a:active {
-    text-decoration: #4472CA wavy underline;
-  }
-  body p,
-  body li {
     color: #2D292F;
   }
   body svg {
@@ -671,13 +668,16 @@ body li {
   }
   body .nav-menu .nav-item a:hover,
   body .nav-menu .nav-item a:active {
-    text-decoration: #30eba2 wavy underline;
+    text-decoration: #4472CA wavy underline;
   }
   body .site-footer {
     background-color: rgba(216, 217, 217, 0.8352941176);
     border-top: 2px solid #616b71;
   }
   body .site-footer .program-name {
+    color: #2D292F;
+  }
+  body .site-footer .authors {
     color: #2D292F;
   }
   body .site-footer .github-icon svg {
