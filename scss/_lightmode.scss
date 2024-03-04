@@ -1,0 +1,127 @@
+@use 'vars' as *;
+
+@media (prefers-color-scheme: light){
+
+    body { 
+        color: $textcolorlight;
+
+        a:hover,
+        a:active {
+            text-decoration: $text-decoration wavy underline;
+        }
+
+        .site-wrapper{
+            background-color: $bgcolorlight;
+            background-image: url('../images/wallpaper-light.jpg');
+        }
+
+        a:focus {
+            border: 1px dotted $bordercolor;
+        } 
+        
+        h2,
+        h3,
+        h4,
+        h5,
+        h6{
+            color: $bgcolor;
+        }
+
+        h2 {
+            border-bottom: 2px solid $bgcolor;
+        }
+
+        h3{
+            color: $textcolorlight;
+            text-decoration: $heading-1 underline;
+        }
+
+        section {
+            background-color: $bgcolorsectionlight;
+            border: 2px solid $bordercolorlight;
+
+            p,
+            li,
+            a {
+                color: $textcolorlight;
+            }
+        }
+
+        svg {
+            fill: $text-decoration;
+        }
+        
+        .navbar {
+            h1 {
+                color: $bgcolorsection;
+            }
+        } 
+
+        .nav-menu {
+            background-color: $bgcolornavlight;
+            border: 2px solid $bordercolorlight;
+        }
+
+        .nav-menu.active {
+            background-color: $bgcolorlight;
+            a {
+                color: $bgcolor;
+                text-decoration: none;
+            }
+
+        }
+        .nav-menu {
+            .nav-item{
+                a {
+                    color: $textcolorlight;
+                }
+                a:hover,
+                a:active {
+                    text-decoration: $text-decoration wavy underline;
+                }
+            }
+        }
+
+        .site-footer{
+            background-color: $bgcolornavlight;
+            border-top: 2px solid $bordercolorlight;
+
+            .program-name{
+                color: $bordercolor;
+            }
+            .authors {
+                color: $bordercolor;
+            }
+            .github-icon svg{
+                fill: $bordercolor;
+            }
+            .home-icon svg{
+                fill: $bordercolor;
+            }
+        }
+            // -- TABLES HERE
+        .demo {
+            table {
+                caption{
+                    color: $textcolorlight;
+                }
+                thead{
+                    th {
+                        color: $textcolorlight;
+                        border: 2px solid $bgcolor;
+                    }
+                }
+                tbody {
+                    td{
+                        color: $textcolorlight;
+                        border: 1px solid $bgcolor;
+
+                        blockquote {
+                            background-color: $bgcolornavlight;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

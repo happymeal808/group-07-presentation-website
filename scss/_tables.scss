@@ -1,0 +1,126 @@
+@use 'vars' as *;
+
+.demo {
+
+    
+
+    table {
+        border-collapse: collapse;
+        margin: 1rem 0;
+        width: 100%;
+
+
+        caption {
+            font-family: $headerfont;
+            text-align: justify;
+            font-size: 1rem;
+            color: $heading-2;
+            margin-bottom: 0.5rem;
+        }
+    
+        
+        thead {
+            width: 10rem;
+                        
+            th {
+                border: 2px solid $bgcolornavlight;
+                font-family: $headerfont;
+                color: $textcolor;
+            }
+        }
+
+        tbody {
+            width: 10rem;
+
+            td {
+                color: $textcolor;
+                font-size: .75rem;
+                border: 1px solid $bgcolornavlight;
+                padding: 0.5rem 0.25rem;
+                word-break:break-word;
+                width: fit-content;
+
+                blockquote{
+                    background-color: $bgcolor;
+                    border-left: 8px solid $bordercolorlight;
+                    border-top-right-radius: 0.5rem;
+                    border-bottom-right-radius: 0.5rem;
+                    padding-left: 0.5rem;
+                }
+
+                ol li {
+                    font-size: 1rem;
+                    line-height: normal;
+                    list-style:decimal;
+                    margin-left: 2rem;
+                }
+                ul li{
+                    font-size: 1rem;
+                    line-height: normal;
+                }
+
+                code {
+                    font-family: monospace;
+                }
+
+                p{font-size: 1rem;}
+
+                h1{
+                    font-size: 1.625rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                h2{
+                    font-size: 1.5rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 400;
+                    border-bottom: none;
+                    margin:0;
+                    padding-bottom: 0;
+                }
+
+                h3{
+                    font-size: 1.375rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 400;
+                    margin: 0;
+                    text-decoration: none;
+                }
+
+                h4{
+                    font-size: 1.25rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 400;
+                }
+                h5{
+                    font-size: 1.175rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 400;
+                }
+                h6{
+                    font-size: 1rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 400;
+                }
+
+            }
+
+            @media (min-width:50em){
+                td{
+                    font-size: clamp(0.75rem, 1vw, 1.125rem );
+
+                    p {
+                        font-size: clamp(1rem, 1.125vw, 1.25rem);
+                    }
+
+                    ol li,
+                    ul li {
+                        font-size: clamp(1rem, 1.125vw, 1.25rem);
+                    }
+                }
+            }
+        } 
+    }
+}
