@@ -53,3 +53,21 @@ Here, let's go over some best practices of basic Markdown syntax:
 | ----------- | ----------- |  
 | Header      | Title       |  
 | Paragraph   | Text        |  
+
+## Tools & Resources
+
+### Tutorials:
+
+* [Markdown Tutorial](https://www.markdowntutorial.com/):an easy Markdown tutorial in under ten minutes.
+
+### Emulators & Editors:
+
+* [Dillinger.io](https://dillinger.io/):an online Markdown editor and HTML-to-Markdown converter.
+
+### Resources:
+
+* ['The' Markdown site](https://daringfireball.net/projects/markdown/):John Gruber's personal block and guide to Markdown.
+* [A Guide to Markdown](https://www.markdownguide.org/):a free, open-source guide to markdown.
+
+* FWD37
+* Dilraj, Gill, Simran, Tyler
