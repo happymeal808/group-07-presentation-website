@@ -791,6 +791,11 @@ body li {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
 }
+.demo table tbody td a {
+  text-decoration: underline;
+  color: lightblue;
+  font-style: normal;
+}
 @media (min-width: 50em) {
   .demo table tbody td {
     font-size: clamp(0.75rem, 1vw, 1.125rem);
