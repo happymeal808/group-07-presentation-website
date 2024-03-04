@@ -49,17 +49,81 @@ Markdown is an ecosystem of tools that lets you complete a variety of tasks like
 
 Here, let's go over some best practices of basic Markdown syntax:
 
+### Headings
+
+Note that the space between the '#' and the heading text is important!
+
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `# Heading 1 `   | `<h1>Heading</h1>`| #Heading 1  |  
-| Paragraph   | Text        |  |  
-test2
+| `# Heading 1 `   | `<h1>Heading</h1>`| <h1>Heading 1</h1>  |  
+| `## Heading 2 `   | `<h2>Heading</h2>`| <h2>Heading 2</h2> | 
+| `### Heading 3 `   | `<h3>Heading</h3>`| <h3>Heading 3</h3> | 
+| `#### Heading 4 `   | `<h4>Heading</h4>`| <h4>Heading 4</h4> | 
+| `##### Heading 5 `   | `<h5>Heading</h5>`| <h5>Heading 5</h5> | 
+| `###### Heading 6 `   | `<h6>Heading</h6>`| <h6>Heading 6</h6> | 
+
+### Paragraphs
+Separate your paragraphs from one another by using a blank line between them.
+| Markdown     | HTML |  Rendered  |  
+| ----------- | ----------- | ------ |  
+|` Hey, check out this paragraph. So cool. `  | `<p>Hey, check out this paragraph.</p> <p>So cool.</p>`| <p>Hey, check out this paragraph.</p> <p>So cool.</p>  |  
+
+
+### Emphasis
+
+Bold and italics can be used on their own or together, and can even be placed within words.
+| Markdown     | HTML |  Rendered  |  
+| ----------- | ----------- | ------ |  
+| `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| This is how you **bold** text.  |  
+| `This is how you *italisize* text. `   | `This is how you <em>italisize</em> text.`| This is how you *italisize* text  | 
+| `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so ***emphatic***! | 
+
+### Blockquotes
+| Markdown     |  Rendered  |  
+| -----------  | ------ |  
+| `> This is how you make a blockquote.`   | <blockquote> This is how you make a blockquote. </blockquote> |  
+
+### Ordered Lists
+| Markdown     | HTML |  Rendered  |  
+| ----------- | ----------- | ------ |  
+| `1. First item 2. Second item 3. Third item`   | `<ol><li>First item</li><li>Second item</li><li>Third item</li></ol>`| <ol><li>First item</li><li>Second item</li><li>Third Item</li></ol> |  
+
+
+### Unordered Lists
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`- First item  - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
+|`* First item  * Second item  * Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
+|`+ First item  + Second item  + Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
+
+### Emojis 
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`:eyes: :100: :thumbsup: :100:`| `&#128064; &#128175; &#128077; &#128175;` | &#128064; &#128175; &#128077; &#128175; |
+
+### Images
+Image links begin with an exclamation point, alt text is placed inside square brackets, and the image link goes inside parentheses!
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`![8-bit Gaming Panda](images/8bit-gaming-panda.png)`|`<img alt="8-bit Gaming Panda" src="images/8bit-gaming-panda.png"/>`| <img alt="8-bit Gaming Panda" src="images/8bit-gaming-panda.png"/> |
+
+### Links
+
+Linking to another external page is similar to linking images, just without the exclamation point.
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+| `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
 ## Tools & Resources
 
 ### Tutorials:
 
-* [Markdown Tutorial](https://www.markdowntutorial.com/):an easy Markdown tutorial in under ten minutes.
+* [Markdown Tutorial](https://www.markdowntutorial.com/):
+an easy Markdown tutorial in under ten minutes.
 
 ### Emulators & Editors:
 
@@ -72,3 +136,4 @@ test2
 
 * FWD37
 * Dilraj, Gill, Simran, Tyler
+* ![Github Icon](https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-5.png&r=48&g=235&b=162)
