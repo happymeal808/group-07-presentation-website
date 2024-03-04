@@ -68,6 +68,21 @@ Separate your paragraphs from one another by using a blank line between them.
 | ----------- | ----------- | ------ |  
 |` Hey, check out this paragraph. So cool. `  | `<p>Hey, check out this paragraph.</p> <p>So cool.</p>`| Hey, check out this paragraph. So cool.  |  
 
+
+### Emphasis
+
+Bold and italics can be used on their own or together, and can even be placed within words.
+| Markdown     | HTML |  Rendered  |  
+| ----------- | ----------- | ------ |  
+| `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| This is how you bold text.  |  
+| `This is how you *italisize* text. `   | `This is how you <em>italisize</em> text.`| This is how you italisize text.  | 
+| `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so emphatic! | 
+
+### Blockquotes
+| Markdown     |  Rendered  |  
+| -----------  | ------ |  
+| `> This is how you make a blockquote.`   | 	This is what your blockquote will look like.  |  
+
 ## Tools & Resources
 
 ### Tutorials:
