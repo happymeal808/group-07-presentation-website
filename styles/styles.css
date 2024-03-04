@@ -488,7 +488,7 @@ body h2 {
   border-bottom: 2px solid #30eba2;
 }
 body h3 {
-  margin: 0.5rem 0;
+  margin-top: 0.75rem;
   font-size: 1.5rem;
   text-decoration: #4472CA underline;
 }
