@@ -375,6 +375,7 @@ html {
 .nav-item a:hover,
 .nav-item a:visited,
 .nav-item a:hover {
+  font-weight: 400;
   color: #E9EBEC;
 }
 
@@ -432,7 +433,7 @@ svg {
     background-color: rgba(35, 31, 34, 0.8352941176);
     width: fit-content;
     height: fit-content;
-    top: 5rem;
+    top: 2.25rem;
     left: 70%;
     flex-direction: column;
     justify-content: flex-start;
@@ -450,13 +451,14 @@ html {
 }
 
 body {
-  background-color: #2D292F;
-  background: url("/images/dark-mode-backgroung.jpg") repeat fixed;
-  background-size: cover;
   overscroll-behavior-x: auto;
   line-height: 1.5;
 }
 body .site-wrapper {
+  background-image: url("../images/dark-mode-backgroung.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
@@ -475,35 +477,37 @@ body h4,
 body h5,
 body h6 {
   display: block;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Mono", monospace;
   font-weight: 400;
   color: #F1EAE4;
   font-size: 2rem;
 }
 body h2 {
   font-family: "Space Mono", monospace;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
   border-bottom: 2px solid #30eba2;
 }
 body h3 {
   margin: 0.5rem 0;
   font-size: 1.5rem;
+  text-decoration: #4472CA underline;
 }
 body section {
   background-color: #231F22;
   border: 2px solid #19181A;
   border-radius: 0.5rem;
-  margin: 2rem 1rem;
-  padding: 1rem;
+  margin: 2rem 0.25rem;
+  padding: 0.75rem 0.5rem;
   height: fit-content;
 }
-body section li {
-  list-style: circle;
+body section ul li {
+  list-style: disc;
   margin-left: 2rem;
 }
 body section a {
+  font-weight: 500;
   text-decoration: none;
-  color: #4472CA;
+  color: #ECEFEF;
   font-style: italic;
 }
 body p,
@@ -513,10 +517,14 @@ body li {
   font-weight: 300;
   color: #ECEFEF;
   font-size: 1.25rem;
-  list-style: none;
-  margin: 0.5rem 0;
 }
 
+@media (min-width: 40em) {
+  body section {
+    margin: 2rem;
+    padding: 2rem;
+  }
+}
 @media (min-width: 50rem) {
   body main {
     margin: 0 3rem;
@@ -585,6 +593,8 @@ body li {
   margin: 0;
   padding: 0;
   font-family: "Space Mono", monospace;
+  list-style: none;
+  margin: 0.5rem 0;
 }
 
 @media (min-width: 50rem) {
@@ -598,9 +608,15 @@ body li {
 }
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #ECEFEF;
-    background: url("/images/wallpaper-light.jpg") repeat fixed;
     color: #2D292F;
+  }
+  body .site-wrapper {
+    background-color: #ECEFEF;
+    background-image: url("../images/wallpaper-light.jpg");
+  }
+  body .site-wrapper a:hover,
+  body .site-wrapper a:active {
+    text-decoration: #30eba2 wavy underline;
   }
   body a:focus {
     border: 1px dotted #2D292F;
@@ -622,6 +638,9 @@ body li {
     background-color: #E9EBEC;
     border: 2px solid #616b71;
   }
+  body section a {
+    color: #2D292F;
+  }
   body section a:hover,
   body section a:active {
     text-decoration: #4472CA wavy underline;
@@ -631,7 +650,7 @@ body li {
     color: #2D292F;
   }
   body svg {
-    fill: #2D292F;
+    fill: #4472CA;
   }
   body .navbar h1 {
     color: #231F22;
@@ -652,7 +671,7 @@ body li {
   }
   body .nav-menu .nav-item a:hover,
   body .nav-menu .nav-item a:active {
-    text-decoration: #4472CA wavy underline;
+    text-decoration: #30eba2 wavy underline;
   }
   body .site-footer {
     background-color: rgba(216, 217, 217, 0.8352941176);
@@ -667,6 +686,20 @@ body li {
   body .site-footer .home-icon svg {
     fill: #2D292F;
   }
+  body .demo table caption {
+    color: #2D292F;
+  }
+  body .demo table thead th {
+    color: #2D292F;
+    border: 2px solid #2D292F;
+  }
+  body .demo table tbody td {
+    color: #2D292F;
+    border: 1px solid #2D292F;
+  }
+  body .demo table tbody td blockquote {
+    background-color: rgba(216, 217, 217, 0.8352941176);
+  }
 }
 .demo table {
   border-collapse: collapse;
@@ -674,11 +707,10 @@ body li {
   width: 100%;
 }
 .demo table caption {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Grotesk", sans-serif;
   text-align: justify;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #F1EAE4;
-  text-decoration: #4472CA wavy underline;
   margin-bottom: 0.5rem;
 }
 .demo table thead {
@@ -696,12 +728,32 @@ body li {
   color: #ECEFEF;
   font-size: 0.75rem;
   border: 1px solid rgba(216, 217, 217, 0.8352941176);
-  padding: 0 0.25rem;
-  overflow-x: auto;
-  line-break: anywhere;
+  padding: 0.5rem 0.25rem;
+  word-break: break-word;
+  width: fit-content;
+}
+.demo table tbody td blockquote {
+  background-color: #2D292F;
+  border-left: 8px solid #616b71;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+.demo table tbody td ol li {
+  font-size: 1rem;
+  line-height: normal;
+  list-style: decimal;
+  margin-left: 2rem;
+}
+.demo table tbody td ul li {
+  font-size: 1rem;
+  line-height: normal;
 }
 .demo table tbody td code {
   font-family: monospace;
+}
+.demo table tbody td p {
+  font-size: 1rem;
 }
 .demo table tbody td h1 {
   font-size: 1.625rem;
@@ -722,6 +774,7 @@ body li {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   margin: 0;
+  text-decoration: none;
 }
 .demo table tbody td h4 {
   font-size: 1.25rem;
@@ -737,6 +790,18 @@ body li {
   font-size: 1rem;
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
+}
+@media (min-width: 50em) {
+  .demo table tbody td {
+    font-size: clamp(0.75rem, 1vw, 1.125rem);
+  }
+  .demo table tbody td p {
+    font-size: clamp(1rem, 1.125vw, 1.25rem);
+  }
+  .demo table tbody td ol li,
+  .demo table tbody td ul li {
+    font-size: clamp(1rem, 1.125vw, 1.25rem);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

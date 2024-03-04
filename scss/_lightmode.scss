@@ -2,10 +2,18 @@
 
 @media (prefers-color-scheme: light){
 
-    body {
-        background-color: $bgcolorlight;
-        background: url('/images/wallpaper-light.jpg') repeat fixed;
+    body { 
         color: $textcolorlight;
+
+        .site-wrapper{
+            background-color: $bgcolorlight;
+            background-image: url('../images/wallpaper-light.jpg');
+
+            a:hover,
+            a:active {
+                text-decoration: $heading-1 wavy underline;
+            }
+        }
 
         a:focus {
             border: 1px dotted $bordercolor;
@@ -31,6 +39,10 @@
             background-color: $bgcolorsectionlight;
             border: 2px solid $bordercolorlight;
             
+            a {
+                color: $textcolorlight;
+            }
+
             a:hover,
             a:active {
                 text-decoration: $text-decoration wavy underline;
@@ -43,7 +55,7 @@
         }
 
         svg {
-            fill: $bordercolor;
+            fill: $text-decoration;
         }
         
         .navbar {
@@ -72,7 +84,7 @@
                 }
                 a:hover,
                 a:active {
-                    text-decoration: $text-decoration wavy underline;
+                    text-decoration: $heading-1 wavy underline;
                 }
             }
         }
@@ -88,6 +100,30 @@
             }
             .home-icon svg{
                 fill: $textcolorlight;
+            }
+        }
+            // -- TABLES HERE
+        .demo {
+            table {
+                caption{
+                    color: $textcolorlight;
+                }
+                thead{
+                    th {
+                        color: $textcolorlight;
+                        border: 2px solid $bgcolor;
+                    }
+                }
+                tbody {
+                    td{
+                        color: $textcolorlight;
+                        border: 1px solid $bgcolor;
+
+                        blockquote {
+                            background-color: $bgcolornavlight;
+                        }
+                    }
+                }
             }
         }
     }

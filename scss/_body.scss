@@ -5,13 +5,14 @@ html {
 }
 
 body {
-    background-color: $bgcolor;
-    background: url('/images/dark-mode-backgroung.jpg') repeat fixed;
-    background-size: cover;
     overscroll-behavior-x: auto;
     line-height: 1.5;
 
     .site-wrapper{
+        background-image: url('../images/dark-mode-backgroung.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        overflow-y: auto;
         display: flex;
         flex-direction: column;
         justify-content: baseline;
@@ -33,7 +34,7 @@ body {
     h5,
     h6 {
         display: block;
-        font-family: $headerfont;
+        font-family: $headerfonthover;
         font-weight: 400;
         color: $heading-2;
         font-size: 2rem;
@@ -41,31 +42,33 @@ body {
 
     h2{
         font-family: $headerfonthover;
-        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
         border-bottom: 2px solid $heading-1;
     }
 
     h3 {
         margin: 0.5rem 0;
         font-size: 1.5rem;
+        text-decoration: $text-decoration underline;
     }
 
     section {
         background-color: $bgcolorsection;
         border: 2px solid #19181A;
         border-radius: 0.5rem;
-        margin: 2rem 1rem;
-        padding: 1rem;
+        margin: 2rem 0.25rem;
+        padding: 0.75rem 0.5rem;
         height: fit-content;
 
-        li {
-            list-style: circle;
+        ul li {
+            list-style:disc;
             margin-left: 2rem;
         }
 
         a {
+            font-weight: 500;    
             text-decoration: none;
-            color: $text-decoration;
+            color: $textcolor;
             font-style: italic;
         }
     }
@@ -77,8 +80,16 @@ body {
         font-weight: 300;
         color: $textcolor;
         font-size: 1.25rem;
-        list-style: none;
-        margin: 0.5rem 0;
+
+    }
+}
+
+@media (min-width:40em){
+    body {
+        section{
+            margin: 2rem;
+            padding: 2rem;
+        }
     }
 }
 

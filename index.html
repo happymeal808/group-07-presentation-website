@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown, Group 7</title>
-    <link rel="stylesheet" href="styles/fwd-normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -76,9 +75,10 @@
 
             <section class="demo" id="code-demo">
                 <h2>Code Demo</h2>
-                <p>Here, let's go over some best practices of basic syntax:</p>
+                <p>Here, let's go over some best practices of basic Markdown syntax:</p>
                     <table>
-                        <caption>Headings</caption>
+                        <h3>Headings</h3>
+                        <caption>Note that the space between the '#' and the heading text is important! </caption>
                         <thead>
                             <tr>
                                 <th scope="col">Markdown</th>
@@ -168,7 +168,8 @@
                         </tbody>
                     </table>
                     <table>
-                        <caption>Paragraphs</caption>
+                        <h3>Paragraphs</h3>
+                        <caption></caption>
                         <thead>
                             <tr>
                                 <th scope="col" class="markdown">Markdown</th>
@@ -179,28 +180,29 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <code>Hey, this paragraph is really paragraphing right now.
+                                    <code>Hey, check out this paragraph.
                                         <br>
                                         <br>
-                                        How paragraph.
+                                        So cool.
                                     </code>
                                 </td>
                                 <td>
                                     <code>
-                                        &lt;p&gt;Hey, this paragraph is really paragraphing right now.&lt;/p&gt;<br>
+                                        &lt;p&gt;Hey, check out this paragraph.&lt;/p&gt;<br>
                                         <br>
                                         &lt;p&gt;So cool.&lt;/p&gt;
                                     </code>
                                 </td>
                                 <td>
-                                    <p>Hey, this paragraph is really paragraphing right now.</p>
+                                    <p>Hey, check out this paragraph.</p>
                                     <p>So cool.</p>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                     <table>
-                        <caption>Emphasis</caption>
+                        <h3>Emphasis</h3>
+                        <caption></caption>
                         <thead>
                             <tr>
                                 <th scope="col">Markdown</th>
@@ -250,6 +252,194 @@
                             </tr>
                         </tbody>
                     </table>
+                    <table>
+                        <h3>Blockquotes</h3>
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>> This is how you make a blockquote.</code>
+                                </td>
+                                <td>
+                                    <blockquote>
+                                        <p>This is what your blockquote will look like.</p>
+                                    </blockquote>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <h3>Ordered Lists</h3>
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">HTML</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>1. First item</br>
+                                    2. Second item</br>
+                                    3. Third item</code>
+                                </td>
+                                <td>
+                                    <code>
+                                    &lt;ol&gt;</br>
+                                        &lt;li&gt;First item&lt;/li&gt;</br>
+                                        &lt;li&gt;Second item&lt;/li&gt;</br>
+                                        &lt;li&gt;Third item&lt;/li&gt;</br>
+                                    &lt;/ol&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>First item</li>
+                                        <li>Second item</li>
+                                        <li>Third Item</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <h3>Unordered Lists</h3>
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">HTML</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>- First item</br>
+                                    - Second item</br>
+                                    - Third item</code>
+                                </td>
+                                <td>
+                                    <code>
+                                    &lt;ul&gt;</br>
+                                        &lt;li&gt;First item&lt;/li&gt;</br>
+                                        &lt;li&gt;Second item&lt;/li&gt;</br>
+                                        &lt;li&gt;Third item&lt;/li&gt;</br>
+                                    &lt;/ul&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>First item</li>
+                                        <li>Second item</li>
+                                        <li>Third Item</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>* First item</br>
+                                    * Second item</br>
+                                    * Third item</code>
+                                </td>
+                                <td>
+                                    <code>
+                                    &lt;ul&gt;</br>
+                                        &lt;li&gt;First item&lt;/li&gt;</br>
+                                        &lt;li&gt;Second item&lt;/li&gt;</br>
+                                        &lt;li&gt;Third item&lt;/li&gt;</br>
+                                    &lt;/ul&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>First item</li>
+                                        <li>Second item</li>
+                                        <li>Third Item</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code>+ First item</br>
+                                    + Second item</br>
+                                    + Third item</code>
+                                </td>
+                                <td>
+                                    <code>
+                                    &lt;ul&gt;</br>
+                                        &lt;li&gt;First item&lt;/li&gt;</br>
+                                        &lt;li&gt;Second item&lt;/li&gt;</br>
+                                        &lt;li&gt;Third item&lt;/li&gt;</br>
+                                    &lt;/ul&gt;
+                                    </code>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>First item</li>
+                                        <li>Second item</li>
+                                        <li>Third Item</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <h3>Emojis</h3>
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">HTML</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>:eyes: :100: :thumbsup: :100:</code>
+                                </td>
+                                <td>
+                                    <code>#128064; #128175; #128077; #128175;</code>
+                                </td>
+                                <td>
+                                    &#128064; &#128175; &#128077; &#128175;
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <h3>Images</h3>
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">HTML</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>![8-bit Gaming Panda](../images/8bit-gaming-panda.png)</code>
+                                </td>
+                                <td>
+                                    <code>&lt;img alt="8-bit Gaming Panda" src="../images/8bit-gaming-panda.png"/&gt;</code>
+                                </td>
+                                <td>
+                                    <img alt="8-bit Gaming Panda" src="../images/8bit-gaming-panda.png"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
             </section>
 
             <section class="resources-tools" id="resources">
@@ -258,18 +448,30 @@
                         <h3>Tutorials:</h3>
                         <ul>
                             <li>
-                                A speedy <a href="https://www.markdowntutorial.com" target="_blank" rel="noreferer noopener"> Markdown Tutorial</a>:
-                                <p></p>
+                                <a href="https://www.markdowntutorial.com/" target="_blank" rel="noreferer noopener"> Markdown Tutorial</a>:
+                                <p>An easy Markdown tutorial in under ten minutes.</p>
                             </li>
                         </ul>
                     </article>
                     <article>
-                        <h3>Emulators:</h3>
-                        <p></p>
+                        <h3>Emulators & Editors:</h3>
+                        <ul>
+                            <li>
+                                <a href="https://dillinger.io/" target="_blank" rel="noreferer noopener">Dillinger.io:</a>
+                                <p>an online Markdown editor and HTML-to-Markdown converter.</p>
+                            </li>
+                        </ul>
                     </article>
                     <article>
                         <h3>Resources:</h3>
-                        <p></p>
+                        <ul>
+                            <li>
+                                <a href="https://daringfireball.net/" target="_blank" rel="noreferer noopener">The Official Markdown site</a>
+                            </li>
+                            <li>
+                                <a href="https://www.markdownguide.org/" target="_blank" rel="noreferer noopener">A Guide to Markdown</a>
+                            </li>
+                        </ul>
                     </article>
 
             </section>

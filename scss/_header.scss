@@ -47,6 +47,7 @@
   a:hover,
   a:visited,
   a:hover {
+    font-weight: 400;
     color: $bgcolorsectionlight;
   }
 }
@@ -58,6 +59,7 @@
   align-items: center;
   width: 100vw;
   padding: 0.5rem 0 0 0.5rem;
+  
   h1 {
     font-family: $headerfonthover;
     font-size: 2rem;
@@ -114,7 +116,7 @@ svg {
     background-color: $bgcolornav;
     width: fit-content;
     height: fit-content;
-    top: 5rem;
+    top: 2.25rem;
     left: 70%;
     flex-direction: column;
     justify-content: flex-start;
