@@ -55,12 +55,12 @@ Note that the space between the '#' and the heading text is important!
 
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `# Heading 1 `   | `<h1>Heading</h1>`| #Heading 1  |  
-| `## Heading 2 `   | `<h2>Heading</h2>`| #Heading 2  | 
-| `### Heading 3 `   | `<h3>Heading</h3>`| #Heading 3  | 
-| `#### Heading 4 `   | `<h4>Heading</h4>`| #Heading 4  | 
-| `##### Heading 5 `   | `<h5>Heading</h4>`| #Heading 5  | 
-| `###### Heading 6 `   | `<h6>Heading</h6>`| #Heading 6  | 
+| `# Heading 1 `   | `<h1>Heading</h1>`| # Heading 1  |  
+| `## Heading 2 `   | `<h2>Heading</h2>`| ## Heading 2  | 
+| `### Heading 3 `   | `<h3>Heading</h3>`| ### Heading 3  | 
+| `#### Heading 4 `   | `<h4>Heading</h4>`| #### Heading 4 | 
+| `##### Heading 5 `   | `<h5>Heading</h4>`| ##### Heading 5  | 
+| `###### Heading 6 `   | `<h6>Heading</h6>`| ###### Heading 6  | 
 
 ### Paragraphs
 Separate your paragraphs from one another by using a blank line between them.
@@ -74,14 +74,14 @@ Separate your paragraphs from one another by using a blank line between them.
 Bold and italics can be used on their own or together, and can even be placed within words.
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| This is how you bold text.  |  
-| `This is how you *italisize* text. `   | `This is how you <em>italisize</em> text.`| This is how you italisize text.  | 
-| `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so emphatic! | 
+| `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| TThis is how you **bold** text.  |  
+| `This is how you *italisize* text. `   | `This is how you <em>italisize</em> text.`| This is how you *italisize* text  | 
+| `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so ***emphatic***! | 
 
 ### Blockquotes
 | Markdown     |  Rendered  |  
 | -----------  | ------ |  
-| `> This is how you make a blockquote.`   | 	This is what your blockquote will look like.  |  
+| `> This is how you make a blockquote.`   | 	> This is how you make a blockquote.  |  
 
 ## Tools & Resources
 
