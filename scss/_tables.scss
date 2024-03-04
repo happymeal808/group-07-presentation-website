@@ -105,6 +105,12 @@
                     font-weight: 400;
                 }
 
+                a {
+                    text-decoration: underline;
+                    color: lightblue;
+                    font-style: normal;
+                }
+
             }
 
             @media (min-width:50em){
