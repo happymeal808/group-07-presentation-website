@@ -11,25 +11,25 @@ Due to it's simplistic nature markdown is a scripting language that can be utili
 
 #  ![markdown logo](images/markdown-50.png) Markdown
 
-* [What is it?](#what-is-markdown)
+* [What is it?](#what-is-it)
 * [What does it do?](#what-does-it-do)
-* [Why use it?](#why-should-you-even-use-it)
-* [Where to use it?](#where-can-you-use-it)
+* [Why use it?](#why)
+* [Where to use it?](#where)
 * [Pros & Cons](#pros-vs-cons)
 * [Code Demo](#code-demo)
-* [Tools & Resources](#tools-and-resources)
+* [Tools & Resources](#tools)
 
 ---
 
-## What is Markdown
+## What is Markdown?{#what-is-it}
 
 To put it plainly, Markdown is a lightweight markup language used to format plaintext text documents. It was created in 2004 by John Gruber. Gruber's primary goal in his design was to create an unobtrusive and readable text formatter, even in it's source-code form. In comparison to HTML, Markdown should be thought of as a writing tool, and HTML as the publishing format.
 
-## What does it do
+## What does it do?{#what-does-it-do}
 
 Markdown is an ecosystem of tools that lets you complete a variety of tasks like creating an HTML page, taking notes, writing a novel, or to even create a slide presentation. Utilizing markdown can lead to a higher efficiency in everyday tasks and the simplistic syntax makes markdown a efficient tool to quickly get your ideas down and implemented. Markdown's simplistic syntax and utilization makes it easy to learn and adapt to one's coding knowledge base. Markdown is a useful tool for any developer when it comes to formatting a README.md on Github, or to simply comment on a Reddit post.
 
-## Why should you even use it
+## Why should you even use it?{#why}
 * **Convenience**:  
   Markdown can be easier to read, write and edit for many people, especially for simple formatting tasks like creating headers, lists, or emphasis. 
 * **Integration**:  
@@ -37,7 +37,7 @@ Markdown is an ecosystem of tools that lets you complete a variety of tasks like
 * **Consistency**:  
   Markdown can help maintain consistency across content created by different authors since it enforces a specific formatting syntax.
 
-## Where can you use it
+## Where can you use it{#where}
 * **Websites & Web-based Applications**:  
   Markdown is good for text-heavy sites such as blogs. It is also often used on websites that contain a lot of user input such as Reddit, GitHub, Discord, Slack, etc.
 * **Documents & Notes**:  
@@ -85,7 +85,7 @@ Separate your paragraphs from one another by using a blank line between them.
 
 ### Emphasis
 
-Bold and italics can be used on their own or together, and can even be placed within words.
+Bold and italics can be used on their own nested together, and can even be placed within words.
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
 | `This is how you **bold** text. `   | `This is how you <strong>bold</strong> text.`| This is how you **bold** text.  |  
@@ -93,6 +93,7 @@ Bold and italics can be used on their own or together, and can even be placed wi
 | `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so ***emphatic***! | 
 
 ### Blockquotes
+Note: block quotes are nestable within eachother.
 | Markdown     |  Rendered  |  
 | -----------  | ------ |  
 | `> This is how you make a blockquote.`   | <blockquote> This is how you make a blockquote. </blockquote> |  
@@ -104,7 +105,6 @@ Bold and italics can be used on their own or together, and can even be placed wi
 
 
 ### Unordered Lists
-
 | Markdown | HTML | Rendered |  
 |---|---|---|  
 |`- First item  - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
@@ -132,7 +132,7 @@ Linking to another external page is similar to linking images, just without the 
 |---|---|---|  
 | `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
-## Tools and Resources
+## Tools & Resources{#tools}
 
 ### Tutorials:
 
