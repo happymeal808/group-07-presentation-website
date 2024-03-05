@@ -21,29 +21,41 @@ Due to it's simplistic nature markdown is a scripting language that can be utili
 
 ---
 
-## What is Markdown?{#what-is-it}
+## What is Markdown?
 
 To put it plainly, Markdown is a lightweight markup language used to format plaintext text documents. It was created in 2004 by John Gruber. Gruber's primary goal in his design was to create an unobtrusive and readable text formatter, even in it's source-code form. In comparison to HTML, Markdown should be thought of as a writing tool, and HTML as the publishing format.
 
-## What does it do?{#what-does-it-do}
+## What does it do?
 
 Markdown is an ecosystem of tools that lets you complete a variety of tasks like creating an HTML page, taking notes, writing a novel, or to even create a slide presentation. Utilizing markdown can lead to a higher efficiency in everyday tasks and the simplistic syntax makes markdown a efficient tool to quickly get your ideas down and implemented. Markdown's simplistic syntax and utilization makes it easy to learn and adapt to one's coding knowledge base. Markdown is a useful tool for any developer when it comes to formatting a README.md on Github, or to simply comment on a Reddit post.
 
-## Why should you even use it?{#why}
-* **Convenience**:  
-  Markdown can be easier to read, write and edit for many people, especially for simple formatting tasks like creating headers, lists, or emphasis. 
-* **Integration**:  
-  Sometimes, Markdown processors are integrated into systems or frameworks that primarily use HTML. This allows users to write content in Markdown, which is then converted to HTML behind the scenes for rendering.
-* **Consistency**:  
-  Markdown can help maintain consistency across content created by different authors since it enforces a specific formatting syntax.
+## Why should you even use it?
 
-## Where can you use it{#where}
-* **Websites & Web-based Applications**:  
-  Markdown is good for text-heavy sites such as blogs. It is also often used on websites that contain a lot of user input such as Reddit, GitHub, Discord, Slack, etc.
-* **Documents & Notes**:  
-  Markdown is good for efficiency as it shortens the time of some of the toolbar commands.
-* **Email**:  
-  Some email providers support Markdown. You can also write an email in Markdown and export it to your email client or install a browser extension.
+### Convenience:
+
+Markdown can be easier to read, write and edit for many people, especially for simple formatting tasks like creating headers, lists, or emphasis.
+
+### Integration:
+
+Sometimes, Markdown processors are integrated into systems or frameworks that primarily use HTML. This allows users to write content in Markdown, which is then converted to HTML behind the scenes for rendering.
+
+### Consistency:
+
+Markdown can help maintain consistency across content created by different authors since it enforces a specific formatting syntax.
+
+## Where can you use it?
+
+### Websites:
+
+Markdown is good for text-heavy sites such as blogs. It is also often used on websites that contain a lot of user input such as Reddit and GitHub.
+
+### Documents & Notes:
+
+Markdown is good for text-heavy sites such as blogs. It is also often used on websites that contain a lot of user input such as Reddit and GitHub.
+
+### Email:
+
+Some email providers support Markdown. You can also write an email in Markdown and export it to your email client or install a browser extension.
 
 ## Pros vs Cons
 
@@ -101,13 +113,13 @@ Note: block quotes are nestable within eachother.
 ### Ordered Lists
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
-| `1. First item 2. Second item 3. Third item`   | `<ol><li>First item</li><li>Second item</li><li>Third item</li></ol>`| <ol><li>First item</li><li>Second item</li><li>Third Item</li></ol> |  
+| `1. First item  2. Second item  3. Third item`   | `<ol><li>First item</li><li>Second item</li><li>Third item</li></ol>`| <ol><li>First item</li><li>Second item</li><li>Third Item</li></ol> |  
 
 
 ### Unordered Lists
 | Markdown | HTML | Rendered |  
 |---|---|---|  
-|`- First item  - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
+|`- First item <br><br> - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
 |`* First item  * Second item  * Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
 |`+ First item  + Second item  + Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
 
@@ -136,20 +148,18 @@ Linking to another external page is similar to linking images, just without the 
 
 ### Tutorials:
 
-* [Markdown Tutorial](https://www.markdowntutorial.com/):
-an easy Markdown tutorial in under ten minutes.
+* [Another Markdown Tutorial](https://commonmark.org/):complete an easy Markdown tutorial in under ten minutes.
 
-### Emulators & Editors:
+### Text Editors:
 
-* [Dillinger.io](https://dillinger.io/):
-an online Markdown editor and HTML-to-Markdown converter.
+* [iA Writer](https://ia.net/writer)
+* [Dillinger.io](https://dillinger.io/)
+* [Typora.io](https://typora.io/)
 
 ### Resources:
 
-* ['The' Markdown site](https://daringfireball.net/projects/markdown/):
-John Gruber's personal block and guide to Markdown.
-* [A Guide to Markdown](https://www.markdownguide.org/):
-a free, open-source guide to markdown.
+* ["The" Markdown site](https://daringfireball.net/projects/markdown/):John Gruber's personal blog and guide to Markdown.
+* [A Guide to Markdown](https://www.markdownguide.org/):a free, open-source guide to markdown.
 
 ---
 
