@@ -12,8 +12,8 @@ Due to it's simplistic nature, markdown is a scripting language that can be util
 # ![markdown logo](images/markdown-50.png) Markdown
 
 * [What is it?](#what-is-it)
-* [What does it do?](#what-does-it-do)
-* [Why use it?](#why)
+* [What does it do?](#what-does-it-do-?)
+* [Why use it?](#why-should-you-even-use-it-?)
 * [Where to use it?](#where)
 * [Pros & Cons](#pros-vs-cons)
 * [Code Demo](#code-demo)
