@@ -1,9 +1,11 @@
 ### Markdown
 
-Hey, welcome to our README. 😸
+Hey, welcome to our README.
   
 Our code represents the utilization of markdown as a whole.
 Due to it's simplistic nature, markdown is a scripting language that can be utilized to format HTML and text based applications. 
+
+below you'll find our website formatted with Markdown 🖥️
 
 ---
 
