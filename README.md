@@ -17,7 +17,7 @@ Due to it's simplistic nature, markdown is a scripting language that can be util
 * [Where to use it?](#where-can-you-use-it)
 * [Pros & Cons](#pros-vs-cons)
 * [Code Demo](#code-demo)
-* [Tools & Resources](#tools-&-resources)
+* [Tools & Resources](#tools-and-resources)
 
 ---
 
@@ -144,7 +144,7 @@ Linking to another external page is similar to linking images, just without the 
 |---|---|---|  
 | `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
-## Tools & Resources
+## Tools and Resources
 
 ### Tutorials:
 
