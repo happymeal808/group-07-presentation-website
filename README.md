@@ -1,3 +1,5 @@
+### Markdown
+
 Hey, welcome to our README. 😸
   
 Our code represents the utilization of markdown as a whole.
@@ -162,4 +164,4 @@ Linking to another external page is similar to linking images, just without the 
 * FWD37
 * Dilraj, Gill, Simran, Tyler
 * [![Github Icon](images/github-32.png)](https://github.com/happymeal808/group-07-presentation-website/)
-* [![Home Icon](images/home-32.png)](# ![markdown logo](images/markdown-50.png) Markdown)
+* [![Home Icon](images/home-32.png)](###Markdown)
