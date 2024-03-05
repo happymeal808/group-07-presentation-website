@@ -5,7 +5,7 @@ Due to it's simplistic nature, markdown is a scripting language that can be util
 
 ---
 
-# ![markdown logo](images/markdown-50.png) Markdown {#Markdown}
+# ![markdown logo](images/markdown-50.png) Markdown
 
 * [What is it?](#what-is-Markdown)
 * [What does it do?](#what-does-it-do)
@@ -162,4 +162,4 @@ Linking to another external page is similar to linking images, just without the 
 * FWD37
 * Dilraj, Gill, Simran, Tyler
 * [![Github Icon](images/github-32.png)](https://github.com/happymeal808/group-07-presentation-website/)
-* [![Home Icon](images/home-32.png)](#Markdown)
+* [![Home Icon](images/home-32.png)](# ![markdown logo](images/markdown-50.png) Markdown)
