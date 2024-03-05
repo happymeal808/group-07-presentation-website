@@ -37,7 +37,7 @@
         <main class="site-main" id="site-main">
             <section class="intro" id="intro">
                 <h2>What is Markdown?</h2>
-                <p>To put it plainly, Markdown is a lightweight markup language used to format plaintext text documents. It was created in 2004 by John Gruber. Gruber's primary goal in his design was to create an unobtrusive and readable text formatter, even in it's source-code form. In comparison to HTML, Markdown should be thought of as a writing tool, and HTML as the publishing format.</p>
+                <p>To put it plainly, Markdown is a lightweight markup language used to format plaintext text documents. It was created in 2004 by John Gruber in collaboration with Aaron Swartz. Gruber's primary goal in his design was to create an unobtrusive and readable text formatter, even in it's source-code form. In comparison to HTML, Markdown should be thought of as a writing tool, and HTML as the publishing format.</p>
             </section>
             <section class="what" id="what">
                 <h2>What does it do?</h2>
@@ -276,7 +276,7 @@
                     </table>
                     <table>
                         <h3>Blockquotes</h3>
-                        <caption></caption>
+                        <caption>A line beginning with a "greater-than" symbol will create a blockquote in your text; these can be nested by pressing "return" and adding another one!</caption>
                         <thead>
                             <tr>
                                 <th scope="col">Markdown</th>
@@ -298,7 +298,7 @@
                     </table>
                     <table>
                         <h3>Ordered Lists</h3>
-                        <caption></caption>
+                        <caption>Fun fact: as long as your list starts with the number one, the numbers following do <strong>not</strong> have to be in numerical order.</caption>
                         <thead>
                             <tr>
                                 <th scope="col">Markdown</th>
@@ -334,7 +334,7 @@
                     </table>
                     <table>
                         <h3>Unordered Lists</h3>
-                        <caption></caption>
+                        <caption>Very similar to WYSIWYG. Also, all types of lists, ordered and unordered, can be within eachother.</caption>
                         <thead>
                             <tr>
                                 <th scope="col">Markdown</th>
@@ -415,30 +415,6 @@
                         </tbody>
                     </table>
                     <table>
-                        <h3>Emojis</h3>
-                        <caption></caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Markdown</th>
-                                <th scope="col">HTML</th>
-                                <th scope="col">Rendered</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <code>:eyes: :100: :thumbsup: :100:</code>
-                                </td>
-                                <td>
-                                    <code>#128064; #128175; #128077; #128175;</code>
-                                </td>
-                                <td>
-                                    &#128064; &#128175; &#128077; &#128175;
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table>
                         <h3>Images</h3>
                         <caption>Image links begin with an exclamation point, alt text is placed inside square brackets, and the image link goes inside parentheses!</caption>
                         <thead>
@@ -486,16 +462,39 @@
                             </tr>
                         </tbody>
                     </table>
+                    <table>
+                        <h3>Emojis</h3>
+                        <caption>Many applications support extended syntax as well, like emojis! To try it out, surround the name of the emoji you would like to use with ":". </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Markdown</th>
+                                <th scope="col">HTML</th>
+                                <th scope="col">Rendered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code>:eyes: :100: :thumbsup: :100:</code>
+                                </td>
+                                <td>
+                                    <code>#128064; #128175; #128077; #128175;</code>
+                                </td>
+                                <td>
+                                    &#128064; &#128175; &#128077; &#128175;
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
             </section>
 
             <section class="resources-tools" id="resources">
                 <h2>Tools & Resources</h2>
                     <article>
-                        <h3>Tutorials:</h3>
+                        <h3>Tutorial:</h3>
                         <ul>
                             <li>
-                                <a href="https://commonmark.org/" target="_blank" rel="noreferer noopener">Another Markdown Tutorial</a>:
-                                <p>complete an easy Markdown tutorial in under ten minutes.</p>
+                                <a href="https://commonmark.org/" target="_blank" rel="noreferer noopener">Commonmark tutorial</a>: complete an easy Markdown tutorial in under ten minutes.
                             </li>
                         </ul>
                     </article>
@@ -503,13 +502,13 @@
                         <h3>Text Editors:</h3>
                         <ul>
                             <li>
-                                <a href="https://ia.net/writer" target="_blank" rel="noreferer noopener">iA Writer</a>
+                                <a href="https://ia.net/writer/get/try" target="_blank" rel="noreferer noopener">iA Writer</a>: application based text editor, designed to provide a distraction free-environment so writers can focus on writing.
                             </li>
                             <li>
-                                <a href="https://dillinger.io/" target="_blank" rel="noreferer noopener">Dillinger.io</a>
+                                <a href="https://dillinger.io/" target="_blank" rel="noreferer noopener">Dillinger.io</a>: a free-to-use online Markdown text editor and document converter.
                             </li>
                             <li>
-                                <a href="https://typora.io/" target="_blank" rel="noreferer noopener">Typora.io</a>
+                                <a href="https://typora.io/" target="_blank" rel="noreferer noopener">Typora.io</a>: a text editor as well as document viewer.
                             </li>
                         </ul>
                     </article>
@@ -517,12 +516,10 @@
                         <h3>Resources:</h3>
                         <ul>
                             <li>
-                                <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noreferer noopener">"The" Markdown site</a>:
-                                <p>John Gruber's personal blog and guide to Markdown.</p>
+                                <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noreferer noopener">"The" Markdown site</a>: John Gruber's personal blog and guide to Markdown.
                             </li>
                             <li>
-                                <a href="https://www.markdownguide.org/" target="_blank" rel="noreferer noopener">A Guide to Markdown</a>:
-                                <p> a free, open-source guide to markdown.</p>
+                                <a href="https://www.markdownguide.org/" target="_blank" rel="noreferer noopener">A Guide to Markdown</a>: a free, open-source guide to markdown.
                             </li>
                         </ul>
                     </article>
