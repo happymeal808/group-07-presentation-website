@@ -17,7 +17,7 @@ Due to it's simplistic nature, markdown is a scripting language that can be util
 * [Where to use it?](#where-can-you-use-it)
 * [Pros & Cons](#pros-vs-cons)
 * [Code Demo](#code-demo)
-* [Tools & Resources](#tools-resources)
+* [Tools & Resources](#tools-&-resources)
 
 ---
 
