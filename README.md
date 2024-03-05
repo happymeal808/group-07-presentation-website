@@ -108,7 +108,7 @@ Bold and italics can be used on their own nested together, and can even be place
 A line beginning with a "greater-than" symbol will create a blockquote in your text; these can be nested by pressing "return" and adding another one!
 | Markdown     |  Rendered  |  
 | -----------  | ------ |  
-| `> This is how you make a blockquote.`   | <blockquote> This is how you make a blockquote. </blockquote> |  
+| `> This is how you make a blockquote.`   | <blockquote> This is what your blockquote will look like. </blockquote> |  
 
 ### Ordered Lists
 Fun fact: as long as your list starts with the number one, the numbers following do  **not** have to be in numerical order.
