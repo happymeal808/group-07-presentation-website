@@ -160,8 +160,8 @@ Many applications support extended syntax as well, like emojis! To try it out, s
 
 ### Resources:
 
-* ["The" Markdown site](https://daringfireball.net/projects/markdown/):John Gruber's personal blog and guide to Markdown.
-* [A Guide to Markdown](https://www.markdownguide.org/):a free, open-source guide to markdown.
+* ["The" Markdown site](https://daringfireball.net/projects/markdown/): John Gruber's personal blog and guide to Markdown.
+* [A Guide to Markdown](https://www.markdownguide.org/): a free, open-source guide to markdown.
 
 ---
 
