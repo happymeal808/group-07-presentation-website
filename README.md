@@ -105,29 +105,25 @@ Bold and italics can be used on their own nested together, and can even be place
 | `Wow, this text is so ***emphatic***! `   | `Wow, this text is so <em><strong>emphatic</strong></em>!`| Wow, this text is so ***emphatic***! | 
 
 ### Blockquotes
-Note: block quotes are nestable within eachother.
+A line beginning with a "greater-than" symbol will create a blockquote in your text; these can be nested by pressing "return" and adding another one!
 | Markdown     |  Rendered  |  
 | -----------  | ------ |  
 | `> This is how you make a blockquote.`   | <blockquote> This is how you make a blockquote. </blockquote> |  
 
 ### Ordered Lists
+Fun fact: as long as your list starts with the number one, the numbers following do  **not** have to be in numerical order.
 | Markdown     | HTML |  Rendered  |  
 | ----------- | ----------- | ------ |  
 | `1. First item  2. Second item  3. Third item`   | `<ol><li>First item</li><li>Second item</li><li>Third item</li></ol>`| <ol><li>First item</li><li>Second item</li><li>Third Item</li></ol> |  
 
 
 ### Unordered Lists
+Very similar to WYSIWYG. Also, all types of lists, ordered and unordered, can be within eachother.
 | Markdown | HTML | Rendered |  
 |---|---|---|  
 |`- First item <br><br> - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
 |`* First item  * Second item  * Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
 |`+ First item  + Second item  + Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
-
-### Emojis 
-
-| Markdown | HTML | Rendered |  
-|---|---|---|  
-|`:eyes: :100: :thumbsup: :100:`| `&#128064; &#128175; &#128077; &#128175;` | &#128064; &#128175; &#128077; &#128175; |
 
 ### Images
 Image links begin with an exclamation point, alt text is placed inside square brackets, and the image link goes inside parentheses!
@@ -137,24 +133,30 @@ Image links begin with an exclamation point, alt text is placed inside square br
 |`![8-bit Gaming Panda](images/8bit-gaming-panda.png)`|`<img alt="8-bit Gaming Panda" src="images/8bit-gaming-panda.png"/>`| <img alt="8-bit Gaming Panda" src="images/8bit-gaming-panda.png"/> |
 
 ### Links
-
 Linking to another external page is similar to linking images, just without the exclamation point.
 
 | Markdown | HTML | Rendered |  
 |---|---|---|  
 | `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
+### Emojis
+Many applications support extended syntax as well, like emojis! To try it out, surround the name of the emoji you would like to use with ":".
+
+| Markdown | HTML | Rendered |  
+|---|---|---|  
+|`:eyes: :100: :thumbsup: :100:`| `&#128064; &#128175; &#128077; &#128175;` | &#128064; &#128175; &#128077; &#128175; |
+
 ## Tools and Resources
 
 ### Tutorials:
 
-* [Another Markdown Tutorial](https://commonmark.org/):complete an easy Markdown tutorial in under ten minutes.
+* [CommonMark Tutorial](https://commonmark.org/): complete an easy Markdown tutorial in under ten minutes.
 
 ### Text Editors:
 
-* [iA Writer](https://ia.net/writer)
-* [Dillinger.io](https://dillinger.io/)
-* [Typora.io](https://typora.io/)
+* [iA Writer](https://ia.net/writer/get/try): application based text editor, designed to provide a distraction free-environment so writers can focus on writing.
+* [Dillinger.io](https://dillinger.io/): a free-to-use online Markdown text editor and document converter.
+* [Typora.io](https://typora.io/): a text editor as well as document viewer.
 
 ### Resources:
 
