@@ -1,15 +1,15 @@
-﻿# Markdown
+
   
-#### by Dilraj, Gill, Simran, & Tyler
+#### Markdow, by Dilraj, Gill, Simran, & Tyler
 
 Hey, welcome to our README. 😸
   
 Our code represents the utilization of markdown as a whole.
-Due to it's simplistic nature markdown is a scripting language that can be utilized to format HTML and text based applications. 
+Due to it's simplistic nature, markdown is a scripting language that can be utilized to format HTML and text based applications. 
 
 ---
 
-#  ![markdown logo](images/markdown-50.png) Markdown
+# ![markdown logo](images/markdown-50.png) Markdown
 
 * [What is it?](#what-is-it)
 * [What does it do?](#what-does-it-do)
@@ -144,7 +144,7 @@ Linking to another external page is similar to linking images, just without the 
 |---|---|---|  
 | `[Wordle](https://www.nytimes.com/games/wordle/index.html)` |`<a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a>`| <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noreferer noopener">Wordle</a> |
 
-## Tools & Resources{#tools}
+## Tools & Resources {#tools}
 
 ### Tutorials:
 
