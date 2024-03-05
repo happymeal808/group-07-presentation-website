@@ -118,7 +118,7 @@ Fun fact: as long as your list starts with the number one, the numbers following
 
 
 ### Unordered Lists
-Very similar to WYSIWYG. Also, all types of lists, ordered and unordered, can be within eachother.
+Very similar to WYSIWYG. Also, all types of lists, ordered and unordered, can be nested within eachother.
 | Markdown | HTML | Rendered |  
 |---|---|---|  
 |`- First item <br><br> - Second item  - Third item`|`<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>`|<ul><li>First item</li><li>Second item</li><li>Third item</li></ul>|  
