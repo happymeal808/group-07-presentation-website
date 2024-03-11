@@ -1,11 +1,9 @@
 ### Group 7
 
-Hey, welcome to our README.
-  
-Our code represents the utilization of markdown as a whole.
-Due to it's simplistic nature, markdown is a scripting language that can be utilized to format HTML and text based applications. 
+Hey, welcome to our README, brought to you by Dilraj, Gill, Simran, and Tyler.
 
-below you'll find our website formatted with Markdown 🖥️
+Feel free to view the source-code of this file for a more in-depth demonstration on how a README can be formatted using a combination of both Markdown & HTML.  
+Below you'll find a version our website formatted with Markdown 🖥️
 
 ---
 
