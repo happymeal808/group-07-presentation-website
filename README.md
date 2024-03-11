@@ -2,7 +2,8 @@
 
 Hey, welcome to our README, brought to you by Dilraj, Gill, Simran, and Tyler.
 
-Feel free to view the source-code of this file for a more in-depth demonstration on how a README can be formatted using a combination of both Markdown & HTML.  
+Feel free to view the source-code of this file for a more in-depth demonstration on how a README can be formatted using a combination of both Markdown & HTML.
+
 Below you'll find a version our website formatted with Markdown 🖥️
 
 ---
