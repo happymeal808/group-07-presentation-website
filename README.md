@@ -1,4 +1,4 @@
-### Group 7 | FWDP 2000
+### Group 7
 
 Hey, welcome to our README.
   
@@ -168,4 +168,4 @@ Many applications support extended syntax as well, like emojis! To try it out, s
 * FWD37
 * Dilraj, Gill, Simran, Tyler
 * [![Github Icon](images/github-32.png)](https://github.com/happymeal808/group-07-presentation-website/)
-* [![Home Icon](images/home-32.png)](#Group-FWDP)
+* [![Home Icon](images/home-32.png)](#group-7)
