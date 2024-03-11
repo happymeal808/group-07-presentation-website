@@ -168,4 +168,4 @@ Many applications support extended syntax as well, like emojis! To try it out, s
 * FWD37
 * Dilraj, Gill, Simran, Tyler
 * [![Github Icon](images/github-32.png)](https://github.com/happymeal808/group-07-presentation-website/)
-* [![Home Icon](images/home-32.png)](#Markdown)
+* [![Home Icon](images/home-32.png)](#Group-7-FWDP-2000)
